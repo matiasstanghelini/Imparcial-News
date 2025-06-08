@@ -28,5 +28,9 @@ waitForPort = 5000
 run = ["sh", "-c", "npx nuxt dev --host 0.0.0.0 --port 5000"]
 
 [[ports]]
+localPort = 3000
+externalPort = 3000
+
+[[ports]]
 localPort = 5000
 externalPort = 80

@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules: ['@nuxtjs/tailwindcss'],
+  ssr: false,
+  compatibilityDate: '2025-06-08',
   app: {
     head: {
       title: 'AI News Analysis Platform',

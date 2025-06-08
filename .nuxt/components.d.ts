@@ -16,6 +16,7 @@ interface _GlobalComponents {
     'AgentTag': typeof import("../components/AgentTag.vue")['default']
     'AgentToggle': typeof import("../components/AgentToggle.vue")['default']
     'NewsCard': typeof import("../components/NewsCard.vue")['default']
+    'SequentialAnalysis': typeof import("../components/SequentialAnalysis.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -44,6 +45,7 @@ interface _GlobalComponents {
     'LazyAgentTag': LazyComponent<typeof import("../components/AgentTag.vue")['default']>
     'LazyAgentToggle': LazyComponent<typeof import("../components/AgentToggle.vue")['default']>
     'LazyNewsCard': LazyComponent<typeof import("../components/NewsCard.vue")['default']>
+    'LazySequentialAnalysis': LazyComponent<typeof import("../components/SequentialAnalysis.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
     'LazyNuxtLayout': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
     'LazyNuxtErrorBoundary': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
@@ -78,6 +80,7 @@ export const AgentAnalysis: typeof import("../components/AgentAnalysis.vue")['de
 export const AgentTag: typeof import("../components/AgentTag.vue")['default']
 export const AgentToggle: typeof import("../components/AgentToggle.vue")['default']
 export const NewsCard: typeof import("../components/NewsCard.vue")['default']
+export const SequentialAnalysis: typeof import("../components/SequentialAnalysis.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -106,6 +109,7 @@ export const LazyAgentAnalysis: LazyComponent<typeof import("../components/Agent
 export const LazyAgentTag: LazyComponent<typeof import("../components/AgentTag.vue")['default']>
 export const LazyAgentToggle: LazyComponent<typeof import("../components/AgentToggle.vue")['default']>
 export const LazyNewsCard: LazyComponent<typeof import("../components/NewsCard.vue")['default']>
+export const LazySequentialAnalysis: LazyComponent<typeof import("../components/SequentialAnalysis.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
 export const LazyNuxtErrorBoundary: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>

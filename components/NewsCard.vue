@@ -38,6 +38,24 @@
       />
     </div>
 
+    <!-- Analysis Mode Toggle -->
+    <div class="flex gap-2 mb-4">
+      <button
+        @click="setAnalysisMode('standard')"
+        :class="analysisMode === 'standard' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+        class="px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
+      >
+        Standard View
+      </button>
+      <button
+        @click="setAnalysisMode('sequential')"
+        :class="analysisMode === 'sequential' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+        class="px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
+      >
+        AI Process View
+      </button>
+    </div>
+
     <!-- Expand Button -->
     <button
       @click="toggleExpanded"
@@ -56,14 +74,22 @@
     </button>
 
     <!-- Expanded Analysis -->
-    <div v-if="isExpanded" class="mt-4 space-y-4">
-      <AgentAnalysis
-        v-for="(analysis, agentType) in article.agents"
-        :key="agentType"
-        :agent-type="agentType"
-        :analysis="analysis"
-        :visible="visibleAgents[agentType]"
-      />
+    <div v-if="isExpanded" class="mt-4">
+      <!-- Standard Analysis View -->
+      <div v-if="analysisMode === 'standard'" class="space-y-4">
+        <AgentAnalysis
+          v-for="(analysis, agentType) in article.agents"
+          :key="agentType"
+          :agent-type="agentType"
+          :analysis="analysis"
+          :visible="visibleAgents[agentType]"
+        />
+      </div>
+
+      <!-- Sequential Analysis View -->
+      <div v-else-if="analysisMode === 'sequential'">
+        <SequentialAnalysis :article="article" />
+      </div>
     </div>
   </div>
 </template>
@@ -83,9 +109,14 @@ const props = defineProps({
 })
 
 const isExpanded = ref(false)
+const analysisMode = ref('standard')
 
 const toggleExpanded = () => {
   isExpanded.value = !isExpanded.value
+}
+
+const setAnalysisMode = (mode) => {
+  analysisMode.value = mode
 }
 
 // Verdict styling
