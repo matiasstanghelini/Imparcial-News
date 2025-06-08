@@ -1,0 +1,149 @@
+<template>
+  <div class="bg-white rounded-2xl shadow-lg p-6 hover:bg-gray-50 transition-colors duration-200">
+    <!-- News Header -->
+    <div class="mb-4">
+      <div class="flex items-center justify-between mb-2">
+        <span class="text-sm text-gray-500 font-medium">{{ article.source }}</span>
+        <span class="text-sm text-gray-400">{{ formatDate(article.date) }}</span>
+      </div>
+      
+      <h2 class="text-xl font-semibold text-gray-900 mb-3 leading-tight">
+        {{ article.title }}
+      </h2>
+      
+      <p class="text-gray-700 mb-4 line-clamp-2">
+        {{ article.summary }}
+      </p>
+    </div>
+
+    <!-- Verdict Badge -->
+    <div class="mb-4">
+      <span 
+        :class="verdictClasses"
+        class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium"
+      >
+        <span class="mr-1">{{ verdictIcon }}</span>
+        {{ verdictText }}
+      </span>
+    </div>
+
+    <!-- Agent Tags Preview -->
+    <div class="mb-4 flex flex-wrap gap-2">
+      <AgentTag
+        v-for="(analysis, agentType) in article.agents"
+        :key="agentType"
+        :agent-type="agentType"
+        :analysis="analysis"
+        :visible="visibleAgents[agentType]"
+      />
+    </div>
+
+    <!-- Expand Button -->
+    <button
+      @click="toggleExpanded"
+      class="w-full py-2 px-4 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-lg transition-colors duration-200 font-medium"
+    >
+      {{ isExpanded ? 'Hide Analysis' : 'Show Analysis' }}
+      <svg 
+        :class="{ 'rotate-180': isExpanded }"
+        class="inline-block ml-2 w-5 h-5 transition-transform duration-200" 
+        fill="none" 
+        stroke="currentColor" 
+        viewBox="0 0 24 24"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+      </svg>
+    </button>
+
+    <!-- Expanded Analysis -->
+    <div v-if="isExpanded" class="mt-4 space-y-4">
+      <AgentAnalysis
+        v-for="(analysis, agentType) in article.agents"
+        :key="agentType"
+        :agent-type="agentType"
+        :analysis="analysis"
+        :visible="visibleAgents[agentType]"
+      />
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed } from 'vue'
+
+const props = defineProps({
+  article: {
+    type: Object,
+    required: true
+  },
+  visibleAgents: {
+    type: Object,
+    required: true
+  }
+})
+
+const isExpanded = ref(false)
+
+const toggleExpanded = () => {
+  isExpanded.value = !isExpanded.value
+}
+
+// Verdict styling
+const verdictClasses = computed(() => {
+  switch (props.article.verdict) {
+    case 'true':
+      return 'bg-green-100 text-green-800'
+    case 'false':
+      return 'bg-red-100 text-red-800'
+    case 'uncertain':
+      return 'bg-yellow-100 text-yellow-800'
+    default:
+      return 'bg-gray-100 text-gray-800'
+  }
+})
+
+const verdictIcon = computed(() => {
+  switch (props.article.verdict) {
+    case 'true':
+      return '🟢'
+    case 'false':
+      return '🔴'
+    case 'uncertain':
+      return '🟡'
+    default:
+      return '⚪'
+  }
+})
+
+const verdictText = computed(() => {
+  switch (props.article.verdict) {
+    case 'true':
+      return 'Verified'
+    case 'false':
+      return 'False'
+    case 'uncertain':
+      return 'Uncertain'
+    default:
+      return 'Unknown'
+  }
+})
+
+// Date formatting
+const formatDate = (dateString) => {
+  const date = new Date(dateString)
+  return date.toLocaleDateString('es-ES', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  })
+}
+</script>
+
+<style scoped>
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+</style>
