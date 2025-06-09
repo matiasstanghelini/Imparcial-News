@@ -3,10 +3,10 @@
     <!-- Header -->
     <header class="mb-8">
       <h1 class="text-4xl font-bold text-gray-900 mb-2">
-        AI News Analysis Platform
+        Plataforma de Análisis de Noticias con IA
       </h1>
       <p class="text-lg text-gray-600">
-        Intelligent news verification powered by AI agents
+        Verificación inteligente de noticias con agentes de inteligencia artificial
       </p>
     </header>
 

@@ -45,14 +45,14 @@
         :class="analysisMode === 'standard' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
         class="px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
       >
-        Standard View
+        Vista Estándar
       </button>
       <button
         @click="setAnalysisMode('sequential')"
         :class="analysisMode === 'sequential' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
         class="px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
       >
-        AI Process View
+        Vista Proceso IA
       </button>
     </div>
 
@@ -61,7 +61,7 @@
       @click="toggleExpanded"
       class="w-full py-2 px-4 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-lg transition-colors duration-200 font-medium"
     >
-      {{ isExpanded ? 'Hide Analysis' : 'Show Analysis' }}
+      {{ isExpanded ? 'Ocultar Análisis' : 'Mostrar Análisis' }}
       <svg 
         :class="{ 'rotate-180': isExpanded }"
         class="inline-block ml-2 w-5 h-5 transition-transform duration-200" 
@@ -149,13 +149,13 @@ const verdictIcon = computed(() => {
 const verdictText = computed(() => {
   switch (props.article.verdict) {
     case 'true':
-      return 'Verified'
+      return 'Verificado'
     case 'false':
-      return 'False'
+      return 'Falso'
     case 'uncertain':
-      return 'Uncertain'
+      return 'Incierto'
     default:
-      return 'Unknown'
+      return 'Desconocido'
   }
 })
 

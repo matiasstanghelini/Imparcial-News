@@ -47,19 +47,19 @@ const props = defineProps({
 // Agent configuration
 const agentConfig = {
   logic: {
-    name: 'Logic Agent',
+    name: 'Agente Lógico',
     icon: '🧠'
   },
   context: {
-    name: 'Context Agent',
+    name: 'Agente de Contexto',
     icon: '📚'
   },
   expert: {
-    name: 'Expert Agent',
+    name: 'Agente Experto',
     icon: '👨‍🔬'
   },
   synth: {
-    name: 'Synthesis Agent',
+    name: 'Agente de Síntesis',
     icon: '📊'
   }
 }

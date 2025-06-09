@@ -1,13 +1,13 @@
 <template>
   <div class="bg-gray-50 rounded-lg p-6 mt-4">
     <div class="flex items-center justify-between mb-6">
-      <h3 class="text-lg font-semibold text-gray-900">AI Analysis Process</h3>
+      <h3 class="text-lg font-semibold text-gray-900">Proceso de Análisis IA</h3>
       <button
         @click="startAnalysis"
         :disabled="isRunning"
         class="px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white rounded-lg transition-colors duration-200 font-medium"
       >
-        {{ isRunning ? 'Analyzing...' : 'Start Analysis' }}
+        {{ isRunning ? 'Analizando...' : 'Iniciar Análisis' }}
       </button>
     </div>
 
