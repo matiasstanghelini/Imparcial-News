@@ -14,7 +14,10 @@
           @change="$emit('toggle', agentType)"
           class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
         >
-        <span class="ml-2 mr-1">{{ config.icon }}</span>
+        <component 
+          :is="config.icon" 
+          class="ml-2 mr-2 w-4 h-4 text-gray-600" 
+        />
         <span class="text-sm font-medium text-gray-700">{{ config.name }}</span>
       </label>
     </div>
@@ -40,6 +43,8 @@
 </template>
 
 <script setup>
+import { Brain, BookOpen, UserCheck, BarChart3 } from 'lucide-vue-next'
+
 const props = defineProps({
   visibleAgents: {
     type: Object,
@@ -53,19 +58,19 @@ const emit = defineEmits(['toggle'])
 const agentConfig = {
   logic: {
     name: 'Agente Lógico',
-    icon: '🧠'
+    icon: Brain
   },
   context: {
     name: 'Agente de Contexto',
-    icon: '📚'
+    icon: BookOpen
   },
   expert: {
     name: 'Agente Experto',
-    icon: '👨‍🔬'
+    icon: UserCheck
   },
   synth: {
     name: 'Agente de Síntesis',
-    icon: '📊'
+    icon: BarChart3
   }
 }
 

@@ -62,7 +62,7 @@
           <!-- Initial State -->
           <div v-if="currentStep === -1" class="flex items-center justify-center h-full text-gray-500">
             <div class="text-center">
-              <div class="text-4xl mb-4">🤖</div>
+              <Bot class="w-16 h-16 mx-auto mb-4 text-gray-400" />
               <p class="text-lg font-medium">Listo para analizar</p>
               <p class="text-sm mt-2">Haz clic en "Iniciar Análisis" para comenzar el proceso de verificación IA</p>
             </div>
@@ -71,7 +71,10 @@
           <!-- Active Analysis Display -->
           <div v-else-if="currentStep < analysisSteps.length" class="space-y-4">
             <div class="flex items-center space-x-3 mb-6">
-              <span class="text-2xl">{{ analysisSteps[currentStep].icon }}</span>
+              <component 
+                :is="analysisSteps[currentStep].icon" 
+                class="w-6 h-6 text-blue-600" 
+              />
               <div>
                 <h4 class="text-xl font-semibold text-gray-900">
                   {{ analysisSteps[currentStep].name }}
@@ -93,7 +96,7 @@
           <!-- Final Synthesis Display -->
           <div v-else class="space-y-4">
             <div class="flex items-center space-x-3 mb-6">
-              <span class="text-2xl">📊</span>
+              <BarChart3 class="w-6 h-6 text-green-600" />
               <div>
                 <h4 class="text-xl font-semibold text-gray-900">Análisis Completado</h4>
                 <p class="text-gray-600">Hallazgos clave y síntesis</p>

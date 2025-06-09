@@ -2,7 +2,10 @@
   <div v-if="visible" class="bg-gray-50 rounded-lg p-4">
     <div class="flex items-center mb-3">
       <div class="flex items-center">
-        <span class="text-lg mr-2">{{ agentIcon }}</span>
+        <component 
+          :is="agentIcon" 
+          class="mr-2 w-5 h-5 text-gray-600" 
+        />
         <h3 class="font-semibold text-gray-900 capitalize">{{ agentName }}</h3>
       </div>
     </div>
@@ -28,6 +31,7 @@
 
 <script setup>
 import { computed } from 'vue'
+import { Brain, BookOpen, UserCheck, BarChart3, Bot } from 'lucide-vue-next'
 
 const props = defineProps({
   agentType: {
@@ -48,22 +52,22 @@ const props = defineProps({
 const agentConfig = {
   logic: {
     name: 'Agente Lógico',
-    icon: '🧠'
+    icon: Brain
   },
   context: {
     name: 'Agente de Contexto',
-    icon: '📚'
+    icon: BookOpen
   },
   expert: {
     name: 'Agente Experto',
-    icon: '👨‍🔬'
+    icon: UserCheck
   },
   synth: {
     name: 'Agente de Síntesis',
-    icon: '📊'
+    icon: BarChart3
   }
 }
 
-const agentName = computed(() => agentConfig[props.agentType]?.name || 'Unknown Agent')
-const agentIcon = computed(() => agentConfig[props.agentType]?.icon || '🤖')
+const agentName = computed(() => agentConfig[props.agentType]?.name || 'Agente Desconocido')
+const agentIcon = computed(() => agentConfig[props.agentType]?.icon || Bot)
 </script>
