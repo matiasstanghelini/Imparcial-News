@@ -36,7 +36,10 @@
               <!-- Step Info -->
               <div class="flex-1">
                 <div class="flex items-center space-x-2">
-                  <span class="text-lg">{{ step.icon }}</span>
+                  <component 
+                    :is="step.icon" 
+                    class="w-4 h-4 text-gray-600" 
+                  />
                   <span 
                     :class="getStepTextClass(index)"
                     class="font-medium transition-colors duration-500"
@@ -133,6 +136,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import { Brain, BookOpen, UserCheck, BarChart3, Bot } from 'lucide-vue-next'
 
 const props = defineProps({
   article: {
@@ -152,21 +156,21 @@ const analysisSteps = ref([
   {
     type: 'logic',
     name: 'Agente Lógico',
-    icon: '🧠',
+    icon: Brain,
     description: 'Analizando consistencia factual y coherencia lógica',
     fullText: ''
   },
   {
     type: 'context',
     name: 'Agente de Contexto',
-    icon: '📚',
+    icon: BookOpen,
     description: 'Recopilando contexto histórico e información de antecedentes',
     fullText: ''
   },
   {
     type: 'expert',
     name: 'Agente Experto',
-    icon: '👨‍🔬',
+    icon: UserCheck,
     description: 'Aplicando conocimiento técnico y experiencia del dominio',
     fullText: ''
   }
