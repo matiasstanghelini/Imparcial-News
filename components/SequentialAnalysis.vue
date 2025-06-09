@@ -26,11 +26,20 @@
               <!-- Step Circle -->
               <div 
                 :class="getStepCircleClass(index)"
-                class="w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium transition-all duration-500"
+                class="w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium transition-all duration-500 border-2"
               >
-                <span v-if="getStepStatus(index) === 'completed'">✓</span>
-                <span v-else-if="getStepStatus(index) === 'active'" class="animate-spin">⟳</span>
-                <span v-else>{{ index + 1 }}</span>
+                <!-- Completed State -->
+                <CheckCircle2 
+                  v-if="getStepStatus(index) === 'completed'" 
+                  class="w-4 h-4 text-white" 
+                />
+                <!-- Active State -->
+                <Loader2 
+                  v-else-if="getStepStatus(index) === 'active'" 
+                  class="w-4 h-4 text-white animate-spin" 
+                />
+                <!-- Pending State -->
+                <span v-else class="text-xs font-bold">{{ index + 1 }}</span>
               </div>
               
               <!-- Step Info -->
@@ -136,7 +145,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { Brain, BookOpen, UserCheck, BarChart3, Bot } from 'lucide-vue-next'
+import { Brain, BookOpen, UserCheck, BarChart3, Bot, CheckCircle2, Loader2 } from 'lucide-vue-next'
 
 const props = defineProps({
   article: {
@@ -201,9 +210,9 @@ const getStepStatus = (index) => {
 const getStepCircleClass = (index) => {
   const status = getStepStatus(index)
   return {
-    'bg-green-500 text-white': status === 'completed',
-    'bg-blue-500 text-white': status === 'active',
-    'bg-gray-200 text-gray-500': status === 'pending'
+    'bg-green-500 border-green-500 text-white': status === 'completed',
+    'bg-blue-500 border-blue-500 text-white': status === 'active',
+    'bg-white border-gray-300 text-gray-500': status === 'pending'
   }
 }
 
