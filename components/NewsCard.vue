@@ -22,7 +22,7 @@
         :class="verdictClasses"
         class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium"
       >
-        <span class="mr-1">{{ verdictIcon }}</span>
+        <span :class="verdictIcon" class="w-2 h-2 rounded-full mr-2"></span>
         {{ verdictText }}
       </span>
     </div>
@@ -136,13 +136,13 @@ const verdictClasses = computed(() => {
 const verdictIcon = computed(() => {
   switch (props.article.verdict) {
     case 'true':
-      return '🟢'
+      return 'bg-green-500'
     case 'false':
-      return '🔴'
+      return 'bg-red-500'
     case 'uncertain':
-      return '🟡'
+      return 'bg-yellow-500'
     default:
-      return '⚪'
+      return 'bg-gray-400'
   }
 })
 
