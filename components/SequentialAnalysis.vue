@@ -15,7 +15,7 @@
       <!-- Stepper Progress (Right Side) -->
       <div class="lg:col-span-1 order-2 lg:order-2">
         <div class="bg-white rounded-lg p-4 shadow-sm">
-          <h4 class="font-medium text-gray-900 mb-4">Analysis Progress</h4>
+          <h4 class="font-medium text-gray-900 mb-4">Progreso del Análisis</h4>
           
           <div class="space-y-4">
             <div
@@ -63,8 +63,8 @@
           <div v-if="currentStep === -1" class="flex items-center justify-center h-full text-gray-500">
             <div class="text-center">
               <div class="text-4xl mb-4">🤖</div>
-              <p class="text-lg font-medium">Ready to analyze</p>
-              <p class="text-sm mt-2">Click "Start Analysis" to begin the AI verification process</p>
+              <p class="text-lg font-medium">Listo para analizar</p>
+              <p class="text-sm mt-2">Haz clic en "Iniciar Análisis" para comenzar el proceso de verificación IA</p>
             </div>
           </div>
 
@@ -95,8 +95,8 @@
             <div class="flex items-center space-x-3 mb-6">
               <span class="text-2xl">📊</span>
               <div>
-                <h4 class="text-xl font-semibold text-gray-900">Analysis Complete</h4>
-                <p class="text-gray-600">Key findings and synthesis</p>
+                <h4 class="text-xl font-semibold text-gray-900">Análisis Completado</h4>
+                <p class="text-gray-600">Hallazgos clave y síntesis</p>
               </div>
             </div>
 
@@ -118,7 +118,7 @@
                 @click="resetAnalysis"
                 class="px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors duration-200 font-medium"
               >
-                Reset Analysis
+                Reiniciar Análisis
               </button>
             </div>
           </div>
@@ -148,23 +148,23 @@ const displayText = ref('')
 const analysisSteps = ref([
   {
     type: 'logic',
-    name: 'Logic Agent',
+    name: 'Agente Lógico',
     icon: '🧠',
-    description: 'Analyzing factual consistency and logical coherence',
+    description: 'Analizando consistencia factual y coherencia lógica',
     fullText: ''
   },
   {
     type: 'context',
-    name: 'Context Agent',
+    name: 'Agente de Contexto',
     icon: '📚',
-    description: 'Gathering historical context and background information',
+    description: 'Recopilando contexto histórico e información de antecedentes',
     fullText: ''
   },
   {
     type: 'expert',
-    name: 'Expert Agent',
+    name: 'Agente Experto',
     icon: '👨‍🔬',
-    description: 'Applying domain expertise and technical knowledge',
+    description: 'Aplicando conocimiento técnico y experiencia del dominio',
     fullText: ''
   }
 ])
