@@ -45,6 +45,14 @@ const logoData = {
     initials: 'A',
     color: 'bg-gray-700'
   },
+  'Cronista': {
+    initials: 'CR',
+    color: 'bg-blue-600'
+  },
+  'TN': {
+    initials: 'TN',
+    color: 'bg-red-500'
+  },
   'Perfil': {
     initials: 'P',
     color: 'bg-indigo-600'

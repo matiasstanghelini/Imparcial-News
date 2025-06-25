@@ -33,8 +33,16 @@ def scrape_rss_feed(source_name, feed_url, max_items=3):
         print(f"Obteniendo {source_name}...")
         feed = feedparser.parse(feed_url)
         
+        # Debugging información
+        if hasattr(feed, 'status'):
+            print(f"  Status HTTP: {feed.status}")
+        if hasattr(feed, 'bozo') and feed.bozo:
+            print(f"  Warning: Feed malformado - {feed.bozo_exception}")
+        
         if not feed.entries:
             print(f"No se encontraron entradas en {source_name}")
+            if hasattr(feed, 'feed'):
+                print(f"  Feed info: {getattr(feed.feed, 'title', 'Sin título')}")
             return []
         
         news_items = []
@@ -86,12 +94,15 @@ def main():
     """Función principal"""
     print("=== Scraper RSS de Noticias Argentinas ===")
     
-    # Feeds RSS de medios argentinos conocidos
+    # Feeds RSS de medios argentinos verificados
     rss_feeds = {
         'La Nación': 'https://www.lanacion.com.ar/arcio/rss/',
-        'Clarín': 'https://www.clarin.com/rss.xml',
-        'Infobae': 'https://www.infobae.com/feeds/rss/',
-        'Ámbito': 'https://www.ambito.com/rss/home.xml'
+        'Clarín': 'https://www.clarin.com/rss/politica/',
+        'Página/12': 'https://www.pagina12.com.ar/rss/portada',
+        'Ámbito': 'https://www.ambito.com/rss/politica.xml',
+        'Cronista': 'https://www.cronista.com/rss/politica.xml',
+        'IProfesional': 'https://www.iprofesional.com/rss/politica.xml',
+        'BAE': 'https://www.baenegocios.com/rss/politica.xml'
     }
     
     all_news = []

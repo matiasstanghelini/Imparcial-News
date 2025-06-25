@@ -1,10 +1,10 @@
 [
   {
-    "title": "Quiénes son los candidatos de las elecciones 2025 en Formosa",
-    "summary": "Los formoseños votan este domingo convencionales constituyentes, diputados provinciales y otros cargos municipales; ¿qué es la ley de Lemas?",
+    "title": "Un ex Boca arremetió contra los jugadores por quedar afuera del Mundial de Clubes",
+    "summary": "El antiguo futbolista xeneize expresó su descontento con la performance del equipo en el certamen internacional, donde el conjunto de Miguel Ángel Russo se despidió de la competencia",
     "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/politica/quienes-son-los-candidatos-de-las-elecciones-2025-en-formosa-nid25062025/",
+    "url": "https://www.lanacion.com.ar/deportes/un-ex-boca-arremetio-contra-los-jugadores-por-quedar-afuera-del-mundial-de-clubes-nid24062025/",
     "verdict": "uncertain",
     "id": 1,
     "agents": {
@@ -20,11 +20,11 @@
     }
   },
   {
-    "title": "Dólar hoy, dólar blue hoy: a cuánto cotiza este miércoles 25 de junio",
-    "summary": "La divisa paralela que se comercializa en el mercado informal cotiza a $1210 para la venta; en tanto, el dólar oficial opera a $1205 para la misma transacción",
+    "title": "¿Mito o realidad: poner una cuchara en la botella de champagne o cerveza evita que pierda gas?",
+    "summary": "Existen experimentos científicos que han dado respuesta a este interrogante que no respeta fronteras",
     "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-dolar-blue-hoy-a-cuanto-cotiza-este-miercoles-25-de-junio-nid25062025/",
+    "url": "https://www.lanacion.com.ar/que-sale/mito-o-realidad-poner-una-cuchara-en-la-botella-de-champagne-o-cerveza-evita-que-pierda-gas-nid25062025/",
     "verdict": "uncertain",
     "id": 2,
     "agents": {
@@ -40,11 +40,11 @@
     }
   },
   {
-    "title": "Así será la millonaria boda en Venecia con 200 invitados VIP de Jeff Bezos con Lauren Sánchez",
-    "summary": "El fundador de Amazon y su futura esposa celebran su unión en la ciudad de los canales; el evento reunirá a celebridades, empresarios y políticos, pero también genera controversia y protestas",
+    "title": "El emotivo video con el que los finalistas se despidieron de la casa de Gran Hermano",
+    "summary": "Luz, Ulises y Tato se conmovieron al ver el clip que recorrió el paso de todos los hermanitos por la casa más famosa del país",
     "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/el-mundo/asi-sera-la-millonaria-boda-en-venecia-con-200-invitados-vip-de-jeff-bezos-con-lauren-sanchez-nid25062025/",
+    "url": "https://www.lanacion.com.ar/espectaculos/el-emotivo-video-con-el-que-los-finalistas-se-despidieron-de-la-casa-de-gran-hermano-nid24062025/",
     "verdict": "uncertain",
     "id": 3,
     "agents": {
@@ -60,13 +60,133 @@
     }
   },
   {
+    "title": "Casación convocó a una audiencia el 7 de julio para definir si Cristina puede recibir visitas sin restricciones",
+    "summary": "Así lo resolvió la Sala IV integrada por los jueces Mariano Borinsky, Gustavo Hornos y Diego Barroetaveña.La defensa de la ex presidenta había solicitado que no se impongan límites a las visitas que pueda recibir durante su arresto domiciliaria.",
+    "source": "Clarín",
+    "date": "2025-06-25",
+    "url": "https://www.clarin.com/politica/casacion-convoco-audiencia-7-julio-definir-cristina-puede-recibir-visitas-restricciones_0_nX3mn5NDx7.html",
+    "verdict": "uncertain",
+    "id": 4,
+    "agents": {
+      "logic": "Noticia de Clarín - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Clarín",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "Incidentes en Mar del Plata: volaron huevos, botellas e insultos en plena sesión del Concejo Deliberante cuando hablaron",
+    "summary": "Los reproches de la barra hacia algunos concejales derivaron en enfrentamientos verbales y empujones.La sesión fue interrumpida por los disturbios",
+    "source": "Clarín",
+    "date": "2025-06-25",
+    "url": "https://www.clarin.com/politica/incidentes-mar-plata-volaron-huevos-botellas-insultos-plena-sesion-concejo-deliberante_0_Lxm6XJjXMn.html",
+    "verdict": "uncertain",
+    "id": 5,
+    "agents": {
+      "logic": "Noticia de Clarín - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Clarín",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "En medio de fuertes críticas y contrarreloj, los K buscan votos para convertir en ley la reelección indefinida de legisl",
+    "summary": "En Diputados aún no se confirmó la sesión para debatir la propuesta aprobada en Senado, que también beneficia a concejales.El 19/7 cierran las listas para la elección provincial y el oficialismo tiene fugas.",
+    "source": "Clarín",
+    "date": "2025-06-25",
+    "url": "https://www.clarin.com/politica/medio-fuertes-criticas-contrarreloj-k-buscan-votos-convertir-ley-reeleccion-indefinida-legisladores_0_nUSNF95xCI.html",
+    "verdict": "uncertain",
+    "id": 6,
+    "agents": {
+      "logic": "Noticia de Clarín - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Clarín",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "Jubilados en lucha: una nueva marcha al Congreso",
+    "summary": "| En medio de un fuerte operativo de seguridad",
+    "source": "Página/12",
+    "date": "2025-06-25",
+    "url": "https://www.pagina12.com.ar/837150-jubilados-en-lucha-una-nueva-marcha-al-congreso",
+    "verdict": "uncertain",
+    "id": 7,
+    "agents": {
+      "logic": "Noticia de Página/12 - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Página/12",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "🔴 En vivo. El padre Paco contra el protocolo antipiquetes de Bullrich",
+    "summary": "| \"Son ellos los que cortan el tránsito\"",
+    "source": "Página/12",
+    "date": "2025-06-25",
+    "url": "https://www.pagina12.com.ar/837030-javier-milei-con-un-ojo-en-las-marchas-y-otro-en-el-criptoga",
+    "verdict": "uncertain",
+    "id": 8,
+    "agents": {
+      "logic": "Noticia de Página/12 - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Página/12",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "Bullrich despliega un desmedido operativo policial en Congreso",
+    "summary": "| En una nueva jornada de protestas",
+    "source": "Página/12",
+    "date": "2025-06-25",
+    "url": "https://www.pagina12.com.ar/837113-patricia-bullrich-despliega-un-desmedido-operativo-policial-",
+    "verdict": "uncertain",
+    "id": 9,
+    "agents": {
+      "logic": "Noticia de Página/12 - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Página/12",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
     "title": "Tensión en el Congreso: Lilia Lemoine filmó a jubilados que asistían a la marcha y fue increpada",
     "summary": "La diputada de La Libertad Avanza fue escoltada por la Policía Federal tras un fuerte cruce con manifestantes que reclamaban mejoras en las jubilaciones.",
     "source": "Ámbito",
     "date": "2025-06-25",
     "url": "https://www.ambito.com/politica/tension-el-congreso-lilia-lemoine-filmo-jubilados-que-asistian-la-marcha-y-fue-increpada-n6160379",
     "verdict": "uncertain",
-    "id": 4,
+    "id": 10,
     "agents": {
       "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
       "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
@@ -80,13 +200,13 @@
     }
   },
   {
-    "title": "Franco Colapinto se ilusiona con el Gran Premio de Austria: \"Tenemos potencial para sumar puntos\"",
-    "summary": "El piloto argentino se mostró confiado en sus posibilidades y destacó que es una pista que conoce bien.",
+    "title": "La casilla de correo del Tribunal Oral recibió más de 1.000 pedidos para ver a Cristina Kirchner",
+    "summary": "Mientras cumple con su condena a prisión domiciliaria, cientos de personas solicitaron visitar a la expresidenta. Las demandas están a disposición de los defensores.",
     "source": "Ámbito",
     "date": "2025-06-25",
-    "url": "https://www.ambito.com/deportes/franco-colapinto-se-ilusiona-el-gran-premio-austria-tenemos-potencial-sumar-puntos-n6160363",
+    "url": "https://www.ambito.com/politica/la-casilla-correo-del-tribunal-oral-recibio-mas-700-pedidos-ver-cristina-kirchner-n6160151",
     "verdict": "uncertain",
-    "id": 5,
+    "id": 11,
     "agents": {
       "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
       "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
@@ -100,13 +220,13 @@
     }
   },
   {
-    "title": "Murió un juvenil de San Telmo durante una operación de la rodilla",
-    "summary": "El club del ascenso comunicó esta tarde el fallecimiento de un futbolista de su Reserva, por causas que aún se desconocen.",
+    "title": "Sindicatos y organizaciones sociales marchan contra el ajuste y los despidos estatales",
+    "summary": "La movilización se realiza hacia el Ministerio de Desregulación y Transformación del Estado. De esta manera, se manifiestan más de 70 federaciones.",
     "source": "Ámbito",
     "date": "2025-06-25",
-    "url": "https://www.ambito.com/deportes/luto-el-futbol-argentino-la-muerte-un-juvenil-san-telmo-n6160350",
+    "url": "https://www.ambito.com/politica/sindicatos-y-organizaciones-sociales-marchan-contra-el-ajuste-y-los-despidos-estatales-n6160323",
     "verdict": "uncertain",
-    "id": 6,
+    "id": 12,
     "agents": {
       "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
       "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
