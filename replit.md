@@ -93,33 +93,32 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- **June 25, 2025 - Newspaper Platform Transformation**:
+- **June 25, 2025 - BBC Mundo Style Transformation**:
+  - Completely rebranded to "Imparcial, news powered by AI" with modern BBC Mundo-inspired design
+  - Applied Inter and Noto Sans modern font families throughout the platform
+  - Transformed NewsCard component with BBC-style layout: clickeable cards, compact design, AI analysis badges
+  - Eliminated "read article" buttons - entire news cards are now clickeable for direct AI analysis access
+  - Added prominent AI analysis preview sections in each news card
+  - Implemented responsive grid layout (1-4 columns) for optimal viewing across devices
+  - Fixed automatic loading loop issue by removing onMounted auto-fetch
+
+- **June 25, 2025 - UI/UX Modernization**:
+  - Updated header with clean, minimalist BBC-style branding
+  - Changed color scheme from newspaper red to modern blue accent colors
+  - Added AI analysis badges and preview sections in news cards
+  - Implemented time-relative formatting (e.g., "Hace 2h", "Hace unos minutos")
+  - Enhanced hover states and transitions for better user interaction
+  - Added welcome screen with clear call-to-action for news loading
+
+- **June 25, 2025 - Technical Infrastructure**:
   - Completely removed AI agent analysis filters and focused exclusively on live news
   - Expanded to 13 Argentine media outlets: La Nación, Clarín, Página/12, Ámbito, El Cronista, TN, iProfesional, Chequeado, Minuto Uno, El Destape Web, etc.
   - Increased news coverage from 15 to 25 articles across major Argentine media
-  - Redesigned NewsCard component with traditional newspaper aesthetic using serif fonts
-  - Added image placeholders and traditional newspaper layout structure
-  - Implemented automatic live news loading on page initialization
-
-- **June 25, 2025 - Detail View Implementation**:
   - Created dedicated news detail page (/noticia/[id]) with full article content
   - Added content extraction API using Trafilatura for complete article text
   - Implemented two-column layout: article content (left) + AI agents analysis (right)
-  - Added external link icon in news cards for direct source access
-  - Removed date display from main news cards for cleaner UI
-  - Modified "Vista Estándar" button to redirect to detailed analysis view
-
-- **June 25, 2025 - Live News Integration**: 
   - Added MediaLogo component with branded logos for Argentine newspapers
   - Created live news API endpoint (/api/news/live) with real-time data
-  - Implemented news source toggle (Demo vs Live)
-  - Added refresh functionality for live news updates
-  - Enhanced UI with loading states and visual feedback
-
-- **June 25, 2025 - Enhanced Design**:
-  - Replaced emoji indicators with professional Tailwind CSS circular dots
-  - Improved responsive design and user experience
-  - Added branded media logos for La Nación, Clarín, Infobae, Página/12, Ámbito, etc.
 
 ## Changelog
 

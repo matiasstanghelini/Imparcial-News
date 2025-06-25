@@ -1020,7 +1020,7 @@ const _1tlfEPNRzeN_2rhH6G8m3JJSRWY3xyO54X9oJjMjEKE = (function(nitro) {
 
 const rootDir = "/home/runner/workspace";
 
-const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"AI-powered news analysis platform"}],"link":[],"style":[],"script":[],"noscript":[],"title":"AI News Analysis Platform"};
+const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Imparcial - Noticias argentinas con análisis AI en tiempo real"}],"link":[],"style":[],"script":[],"noscript":[],"title":"Imparcial - News Powered by AI"};
 
 const appRootTag = "div";
 

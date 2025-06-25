@@ -7,11 +7,11 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-06-08',
   app: {
     head: {
-      title: 'AI News Analysis Platform',
+      title: 'Imparcial - News Powered by AI',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'AI-powered news analysis platform' }
+        { hid: 'description', name: 'description', content: 'Imparcial - Noticias argentinas con análisis AI en tiempo real' }
       ]
     }
   },
