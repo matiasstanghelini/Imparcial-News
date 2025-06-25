@@ -32,7 +32,19 @@
     </div>
 
     <!-- News Feed -->
-    <div class="grid gap-8 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+    <div v-if="newsData.length === 0" class="text-center py-16">
+      <div class="text-gray-500 mb-4">
+        <svg class="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd" />
+        </svg>
+        <h3 class="text-xl font-serif font-bold text-gray-700 mb-2">Bienvenido a Noticias Argentina</h3>
+        <p class="text-gray-600 font-serif">
+          Haga clic en "Actualizar Noticias" para cargar las últimas noticias de los principales medios del país
+        </p>
+      </div>
+    </div>
+    
+    <div v-else class="grid gap-8 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       <NewsCard
         v-for="article in newsData"
         :key="article.id"
@@ -44,16 +56,11 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
 // News data and loading state
 const newsData = ref([])
 const loading = ref(false)
-
-// Initialize with live news on mount
-onMounted(() => {
-  fetchLiveNews()
-})
 
 const refreshNews = async () => {
   loading.value = true
