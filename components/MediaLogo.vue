@@ -57,6 +57,14 @@ const logoData = {
     initials: 'P',
     color: 'bg-indigo-600'
   },
+  'IProfesional': {
+    initials: 'IP',
+    color: 'bg-teal-600'
+  },
+  'BAE': {
+    initials: 'BAE',
+    color: 'bg-emerald-600'
+  },
   'Cronista': {
     initials: 'CR',
     color: 'bg-teal-600'

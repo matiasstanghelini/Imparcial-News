@@ -6,7 +6,7 @@ export default defineEventHandler(async (event) => {
   try {
     console.log('Obteniendo noticias reales de medios argentinos...')
     
-    const scraperPath = join(process.cwd(), 'scrapers', 'simple_rss_scraper.py')
+    const scraperPath = join(process.cwd(), 'scrapers', 'fast_combined_scraper.py')
     const dataPath = join(process.cwd(), 'data', 'real_news.json')
     
     // Verificar si el archivo de noticias existe y es reciente (menos de 5 minutos)

@@ -1869,7 +1869,7 @@ const extract_post$1 = /*#__PURE__*/Object.freeze({
 const live_get = defineEventHandler(async (event) => {
   try {
     console.log("Obteniendo noticias reales de medios argentinos...");
-    const scraperPath = join(process.cwd(), "scrapers", "simple_rss_scraper.py");
+    const scraperPath = join(process.cwd(), "scrapers", "fast_combined_scraper.py");
     const dataPath = join(process.cwd(), "data", "real_news.json");
     if (existsSync(dataPath)) {
       const stats = statSync(dataPath);

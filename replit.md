@@ -93,6 +93,13 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+- **June 25, 2025 - Advanced Scraping System**:
+  - Implemented hybrid scraper combining RSS feeds and web scraping for maximum coverage
+  - Expanded from 3 to 15 news sources across 5 major Argentine media outlets
+  - Successfully integrated TN, Infobae, and additional sources through alternative scraping methods
+  - Created fast parallel scraper with timeout controls for production reliability
+  - Added comprehensive media logos for all Argentine news sources
+
 - **June 25, 2025 - Detail View Implementation**:
   - Created dedicated news detail page (/noticia/[id]) with full article content
   - Added content extraction API using Trafilatura for complete article text

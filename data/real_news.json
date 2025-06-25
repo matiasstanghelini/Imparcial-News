@@ -1,61 +1,41 @@
 [
   {
-    "title": "Un ex Boca arremetió contra los jugadores por quedar afuera del Mundial de Clubes",
-    "summary": "El antiguo futbolista xeneize expresó su descontento con la performance del equipo en el certamen internacional, donde el conjunto de Miguel Ángel Russo se despidió de la competencia",
-    "source": "La Nación",
+    "title": "Mauricio Macri respaldó la decisión de la justicia en la condena a Cristina Kirchner: \"Si uno no hace las cosas dentro d",
+    "summary": "El expresidente realizó declaraciones en Ituzaingó, Corrientes, donde inauguró un puente con el gobernador.",
+    "source": "Clarín",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/deportes/un-ex-boca-arremetio-contra-los-jugadores-por-quedar-afuera-del-mundial-de-clubes-nid24062025/",
+    "url": "https://www.clarin.com/politica/mauricio-macri-respaldo-decision-justicia-condena-cristina-kirchner-hace-cosas-dentro-ley-consecuencias_0_2yWEhioDX9.html",
     "verdict": "uncertain",
     "id": 1,
     "agents": {
-      "logic": "Noticia de La Nación - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de Clarín - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: La Nación",
+        "📰 Fuente: Clarín",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
   {
-    "title": "¿Mito o realidad: poner una cuchara en la botella de champagne o cerveza evita que pierda gas?",
-    "summary": "Existen experimentos científicos que han dado respuesta a este interrogante que no respeta fronteras",
-    "source": "La Nación",
+    "title": "Quién es Alexia Abaigar, la funcionaria de Axel Kicillof detenida por tirar caca en la casa de José Luis Espert",
+    "summary": "Se desempeña en el Ministerio de las Mujeres de la provincia de Buenos Aires, bajo el cargo de directora de Sensibilización.Es profesora de yoga y tiene un vasto recorrido estatal desde 2015.",
+    "source": "Clarín",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/que-sale/mito-o-realidad-poner-una-cuchara-en-la-botella-de-champagne-o-cerveza-evita-que-pierda-gas-nid25062025/",
+    "url": "https://www.clarin.com/politica/alexia-abaigar-funcionaria-axel-kicillof-detenida-tirar-caca-casa-jose-luis-espert_0_3CNNm6v3G3.html",
     "verdict": "uncertain",
     "id": 2,
     "agents": {
-      "logic": "Noticia de La Nación - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de Clarín - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: La Nación",
+        "📰 Fuente: Clarín",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
-      ]
-    }
-  },
-  {
-    "title": "El emotivo video con el que los finalistas se despidieron de la casa de Gran Hermano",
-    "summary": "Luz, Ulises y Tato se conmovieron al ver el clip que recorrió el paso de todos los hermanitos por la casa más famosa del país",
-    "source": "La Nación",
-    "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/espectaculos/el-emotivo-video-con-el-que-los-finalistas-se-despidieron-de-la-casa-de-gran-hermano-nid24062025/",
-    "verdict": "uncertain",
-    "id": 3,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
@@ -66,56 +46,16 @@
     "date": "2025-06-25",
     "url": "https://www.clarin.com/politica/casacion-convoco-audiencia-7-julio-definir-cristina-puede-recibir-visitas-restricciones_0_nX3mn5NDx7.html",
     "verdict": "uncertain",
-    "id": 4,
+    "id": 3,
     "agents": {
-      "logic": "Noticia de Clarín - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de Clarín - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: Clarín",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
-      ]
-    }
-  },
-  {
-    "title": "Incidentes en Mar del Plata: volaron huevos, botellas e insultos en plena sesión del Concejo Deliberante cuando hablaron",
-    "summary": "Los reproches de la barra hacia algunos concejales derivaron en enfrentamientos verbales y empujones.La sesión fue interrumpida por los disturbios",
-    "source": "Clarín",
-    "date": "2025-06-25",
-    "url": "https://www.clarin.com/politica/incidentes-mar-plata-volaron-huevos-botellas-insultos-plena-sesion-concejo-deliberante_0_Lxm6XJjXMn.html",
-    "verdict": "uncertain",
-    "id": 5,
-    "agents": {
-      "logic": "Noticia de Clarín - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
-      "synth": [
-        "📰 Fuente: Clarín",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
-      ]
-    }
-  },
-  {
-    "title": "En medio de fuertes críticas y contrarreloj, los K buscan votos para convertir en ley la reelección indefinida de legisl",
-    "summary": "En Diputados aún no se confirmó la sesión para debatir la propuesta aprobada en Senado, que también beneficia a concejales.El 19/7 cierran las listas para la elección provincial y el oficialismo tiene fugas.",
-    "source": "Clarín",
-    "date": "2025-06-25",
-    "url": "https://www.clarin.com/politica/medio-fuertes-criticas-contrarreloj-k-buscan-votos-convertir-ley-reeleccion-indefinida-legisladores_0_nUSNF95xCI.html",
-    "verdict": "uncertain",
-    "id": 6,
-    "agents": {
-      "logic": "Noticia de Clarín - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
-      "synth": [
-        "📰 Fuente: Clarín",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
@@ -126,16 +66,16 @@
     "date": "2025-06-25",
     "url": "https://www.pagina12.com.ar/837150-jubilados-en-lucha-una-nueva-marcha-al-congreso",
     "verdict": "uncertain",
-    "id": 7,
+    "id": 4,
     "agents": {
-      "logic": "Noticia de Página/12 - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de Página/12 - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: Página/12",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
@@ -146,16 +86,16 @@
     "date": "2025-06-25",
     "url": "https://www.pagina12.com.ar/837030-javier-milei-con-un-ojo-en-las-marchas-y-otro-en-el-criptoga",
     "verdict": "uncertain",
-    "id": 8,
+    "id": 5,
     "agents": {
-      "logic": "Noticia de Página/12 - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de Página/12 - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: Página/12",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
@@ -166,76 +106,196 @@
     "date": "2025-06-25",
     "url": "https://www.pagina12.com.ar/837113-patricia-bullrich-despliega-un-desmedido-operativo-policial-",
     "verdict": "uncertain",
-    "id": 9,
+    "id": 6,
     "agents": {
-      "logic": "Noticia de Página/12 - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de Página/12 - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: Página/12",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
   {
-    "title": "Tensión en el Congreso: Lilia Lemoine filmó a jubilados que asistían a la marcha y fue increpada",
-    "summary": "La diputada de La Libertad Avanza fue escoltada por la Policía Federal tras un fuerte cruce con manifestantes que reclamaban mejoras en las jubilaciones.",
-    "source": "Ámbito",
+    "title": "Diputados y senadores de Unión por la Patria le pidieron a la Justicia visitar a Cristina Kirchner “sin restricciones”",
+    "summary": "Noticia de TN",
+    "source": "TN",
     "date": "2025-06-25",
-    "url": "https://www.ambito.com/politica/tension-el-congreso-lilia-lemoine-filmo-jubilados-que-asistian-la-marcha-y-fue-increpada-n6160379",
+    "url": "https://tn.com.ar/politica/politica/2025/06/25/diputados-y-senadores-de-union-por-la-patria-le-pidieron-a-la-justicia-visitar-a-cfk-sin-restricciones/",
+    "verdict": "uncertain",
+    "id": 7,
+    "agents": {
+      "logic": "Noticia de TN - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: TN",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "La Justicia fijó una audiencia para definir las restricciones de las visitas a Cristina Kirchner",
+    "summary": "Noticia de TN",
+    "source": "TN",
+    "date": "2025-06-25",
+    "url": "https://tn.com.ar/politica/politica/2025/06/25/la-justicia-fijo-una-audiencia-para-definir-las-restricciones-de-las-visitas-a-cristina-kirchner/",
+    "verdict": "uncertain",
+    "id": 8,
+    "agents": {
+      "logic": "Noticia de TN - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: TN",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "La Casa Rosada criticó la media sanción para la reelección indefinida de legisladores en PBA: \"Es un paso atrás\"",
+    "summary": "Noticia de TN",
+    "source": "TN",
+    "date": "2025-06-25",
+    "url": "https://tn.com.ar/politica/politica/2025/06/25/el-gobierno-critico-la-media-sancion-de-la-reeleccion-indefinida-de-legisladores-en-pba/",
+    "verdict": "uncertain",
+    "id": 9,
+    "agents": {
+      "logic": "Noticia de TN - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: TN",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Cuál es el origen científico de la risa y qué efectos terapéuticos puede tener",
+    "summary": "Más allá de su dimensión emocional y social, es un pilar fundamental en nuestra salud y en el bienestar social; conocé todos los detalles en la nota",
+    "source": "La Nación",
+    "date": "2025-06-25",
+    "url": "https://www.lanacion.com.ar/lifestyle/en-las-redes/cual-es-el-origen-cientifico-de-la-risa-nid25062025/",
     "verdict": "uncertain",
     "id": 10,
     "agents": {
-      "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: Ámbito",
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
   {
-    "title": "La casilla de correo del Tribunal Oral recibió más de 1.000 pedidos para ver a Cristina Kirchner",
-    "summary": "Mientras cumple con su condena a prisión domiciliaria, cientos de personas solicitaron visitar a la expresidenta. Las demandas están a disposición de los defensores.",
-    "source": "Ámbito",
+    "title": "Murió Liam Byrne, campeón británico de salto base, tras lanzarse desde una montaña en los Alpes suizos",
+    "summary": "El joven de 24 años sufrió un desperfecto en su vuelo a más de 2000 metros de altura; su deseo era “volar como un pájaro”",
+    "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.ambito.com/politica/la-casilla-correo-del-tribunal-oral-recibio-mas-700-pedidos-ver-cristina-kirchner-n6160151",
+    "url": "https://www.lanacion.com.ar/deportes/murio-liam-byrne-campeon-britanico-de-salto-base-tras-lanzarse-desde-una-montana-en-los-alpes-suizos-nid24062025/",
     "verdict": "uncertain",
     "id": 11,
     "agents": {
-      "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: Ámbito",
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   },
   {
-    "title": "Sindicatos y organizaciones sociales marchan contra el ajuste y los despidos estatales",
-    "summary": "La movilización se realiza hacia el Ministerio de Desregulación y Transformación del Estado. De esta manera, se manifiestan más de 70 federaciones.",
-    "source": "Ámbito",
+    "title": "Quién quedó en el tercer puesto en Gran Hermano 2025",
+    "summary": "Se terminó una nueva edición del reality más famoso del país y en una final cargada de emoción se conoció quién quedó en el tercer puesto",
+    "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.ambito.com/politica/sindicatos-y-organizaciones-sociales-marchan-contra-el-ajuste-y-los-despidos-estatales-n6160323",
+    "url": "https://www.lanacion.com.ar/espectaculos/quien-quedo-en-el-tercer-puesto-en-gran-hermano-2025-nid24062025/",
     "verdict": "uncertain",
     "id": 12,
     "agents": {
-      "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
-      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
-      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: Ámbito",
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia real obtenida de RSS",
-        "⚡ Tipo: Información en tiempo real"
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Cuántos dólares tienen los argentinos en el colchón",
+    "summary": "El organismo oficial de estadística difundió este miércoles la estimación del monto por fuera del sistema financiero correspondiente al primer trimestre del año.",
+    "source": "Cronista",
+    "date": "2025-06-25",
+    "url": "https://www.cronista.com/finanzas-mercados/cuantos-dolares-tienen-los-argentinos-en-el-colchon/",
+    "verdict": "uncertain",
+    "id": 13,
+    "agents": {
+      "logic": "Noticia de Cronista - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Cronista",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Dolor en el fútbol: murió un reconocido futbolista del ascenso",
+    "summary": "Confirmaron el fallecimiento del jugador, que también había integrado parte del plantel de Boca e Independiente. Tenía 18 años.",
+    "source": "Cronista",
+    "date": "2025-06-25",
+    "url": "https://www.cronista.com/informacion-gral/murio-un-reconocido-futbolista-del-ascenso/",
+    "verdict": "uncertain",
+    "id": 14,
+    "agents": {
+      "logic": "Noticia de Cronista - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Cronista",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "La filosofía de Elon Musk para triunfar en la vida: \"No puede ser solo resolver un problema miserable tras otro\"",
+    "summary": "El fundador de SpaceX reveló la filosofía que guía todos sus proyectos. Qué dijo sobre la humanidad, la inteligencia artificial y el futuro fuera de la Tierra.",
+    "source": "Cronista",
+    "date": "2025-06-25",
+    "url": "https://www.cronista.com/informacion-gral/la-filosofia-de-elon-musk-para-triunfar-en-la-vida-no-puede-ser-solo-resolver-un-problema-miserable-tras-otro/",
+    "verdict": "uncertain",
+    "id": 15,
+    "agents": {
+      "logic": "Noticia de Cronista - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Cronista",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
       ]
     }
   }
