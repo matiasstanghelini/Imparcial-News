@@ -1,102 +1,81 @@
-import { spawn } from 'child_process'
-import { readFileSync, existsSync } from 'fs'
+import { readFileSync, existsSync, statSync } from 'fs'
 import { join } from 'path'
+import { execSync } from 'child_process'
 
 export default defineEventHandler(async (event) => {
   try {
     console.log('Obteniendo noticias reales de medios argentinos...')
     
-    // Ejecutar el scraper RSS simplificado
     const scraperPath = join(process.cwd(), 'scrapers', 'simple_rss_scraper.py')
     const dataPath = join(process.cwd(), 'data', 'real_news.json')
     
-    return new Promise((resolve, reject) => {
-      const pythonProcess = spawn('python3', [scraperPath], {
+    // Verificar si el archivo de noticias existe y es reciente (menos de 5 minutos)
+    if (existsSync(dataPath)) {
+      const stats = statSync(dataPath)
+      const ageInMinutes = (Date.now() - stats.mtime.getTime()) / (1000 * 60)
+      
+      if (ageInMinutes < 5) {
+        console.log('Usando noticias cached (menos de 5 minutos)')
+        const newsData = JSON.parse(readFileSync(dataPath, 'utf-8'))
+        return {
+          success: true,
+          data: newsData,
+          timestamp: new Date().toISOString(),
+          count: newsData.length,
+          source: "Noticias reales (cached)",
+          cached: true
+        }
+      }
+    }
+    
+    // Ejecutar scraper de forma sincrónica con timeout
+    try {
+      console.log('Ejecutando scraper...')
+      execSync(`python3 ${scraperPath}`, {
         cwd: process.cwd(),
-        stdio: ['ignore', 'pipe', 'pipe']
+        timeout: 30000,
+        stdio: 'pipe'
       })
       
-      let output = ''
-      let errorOutput = ''
-      
-      pythonProcess.stdout.on('data', (data) => {
-        output += data.toString()
-      })
-      
-      pythonProcess.stderr.on('data', (data) => {
-        errorOutput += data.toString()
-      })
-      
-      pythonProcess.on('close', (code) => {
-        console.log('Scraper terminado con código:', code)
-        console.log('Output:', output)
+      // Leer el archivo generado
+      if (existsSync(dataPath)) {
+        const newsData = JSON.parse(readFileSync(dataPath, 'utf-8'))
         
-        if (errorOutput) {
-          console.log('Errores:', errorOutput)
+        return {
+          success: true,
+          data: newsData,
+          timestamp: new Date().toISOString(),
+          count: newsData.length,
+          source: "Noticias reales de medios argentinos"
         }
-        
-        // Intentar leer el archivo generado
-        if (existsSync(dataPath)) {
-          try {
-            const newsData = JSON.parse(readFileSync(dataPath, 'utf-8'))
-            
-            resolve({
-              success: true,
-              data: newsData,
-              timestamp: new Date().toISOString(),
-              count: newsData.length,
-              source: "Noticias reales de medios argentinos",
-              scraperOutput: output.split('\n').slice(-5) // Últimas 5 líneas del output
-            })
-          } catch (parseError) {
-            console.error('Error parseando JSON:', parseError)
-            reject({
-              success: false,
-              error: 'Error parseando datos de noticias',
-              message: parseError.message,
-              timestamp: new Date().toISOString()
-            })
-          }
-        } else {
-          reject({
-            success: false,
-            error: 'El scraper no generó archivo de datos',
-            message: 'No se pudo crear el archivo de noticias reales',
-            timestamp: new Date().toISOString(),
-            scraperOutput: output,
-            scraperError: errorOutput
-          })
+      } else {
+        throw new Error('Archivo no generado por el scraper')
+      }
+      
+    } catch (execError) {
+      console.error('Error ejecutando scraper:', execError)
+      
+      // Fallback: Si hay datos cached antiguos, usarlos
+      if (existsSync(dataPath)) {
+        const newsData = JSON.parse(readFileSync(dataPath, 'utf-8'))
+        return {
+          success: true,
+          data: newsData,
+          timestamp: new Date().toISOString(),
+          count: newsData.length,
+          source: "Noticias reales (fallback)",
+          warning: "Usando datos anteriores debido a error en scraper"
         }
-      })
+      }
       
-      pythonProcess.on('error', (error) => {
-        console.error('Error ejecutando scraper:', error)
-        reject({
-          success: false,
-          error: 'Error ejecutando scraper de noticias',
-          message: error.message,
-          timestamp: new Date().toISOString()
-        })
-      })
-      
-      // Timeout de 45 segundos
-      setTimeout(() => {
-        pythonProcess.kill()
-        reject({
-          success: false,
-          error: 'Timeout del scraper',
-          message: 'El scraper tardó demasiado tiempo',
-          timestamp: new Date().toISOString()
-        })
-      }, 45000)
-    })
+      throw execError
+    }
     
   } catch (error) {
-    console.error('Error obteniendo noticias:', error)
-    
+    console.error('Error general:', error)
     return {
       success: false,
-      error: 'Error al obtener noticias en vivo',
+      error: 'Error obteniendo noticias en vivo',
       message: error.message,
       timestamp: new Date().toISOString()
     }

@@ -5,8 +5,8 @@ import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
 import { escapeHtml } from 'file:///home/runner/workspace/node_modules/@vue/shared/dist/shared.cjs.js';
-import { spawn } from 'node:child_process';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, statSync, readFileSync } from 'node:fs';
+import { execSync } from 'node:child_process';
 import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/runner/workspace/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file:///home/runner/workspace/node_modules/ufo/dist/index.mjs';
 import { renderToString } from 'file:///home/runner/workspace/node_modules/vue/server-renderer/index.mjs';
@@ -1776,81 +1776,61 @@ const live_get = defineEventHandler(async (event) => {
     console.log("Obteniendo noticias reales de medios argentinos...");
     const scraperPath = join(process.cwd(), "scrapers", "simple_rss_scraper.py");
     const dataPath = join(process.cwd(), "data", "real_news.json");
-    return new Promise((resolve, reject) => {
-      const pythonProcess = spawn("python3", [scraperPath], {
+    if (existsSync(dataPath)) {
+      const stats = statSync(dataPath);
+      const ageInMinutes = (Date.now() - stats.mtime.getTime()) / (1e3 * 60);
+      if (ageInMinutes < 5) {
+        console.log("Usando noticias cached (menos de 5 minutos)");
+        const newsData = JSON.parse(readFileSync(dataPath, "utf-8"));
+        return {
+          success: true,
+          data: newsData,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          count: newsData.length,
+          source: "Noticias reales (cached)",
+          cached: true
+        };
+      }
+    }
+    try {
+      console.log("Ejecutando scraper...");
+      execSync(`python3 ${scraperPath}`, {
         cwd: process.cwd(),
-        stdio: ["ignore", "pipe", "pipe"]
+        timeout: 3e4,
+        stdio: "pipe"
       });
-      let output = "";
-      let errorOutput = "";
-      pythonProcess.stdout.on("data", (data) => {
-        output += data.toString();
-      });
-      pythonProcess.stderr.on("data", (data) => {
-        errorOutput += data.toString();
-      });
-      pythonProcess.on("close", (code) => {
-        console.log("Scraper terminado con c\xF3digo:", code);
-        console.log("Output:", output);
-        if (errorOutput) {
-          console.log("Errores:", errorOutput);
-        }
-        if (existsSync(dataPath)) {
-          try {
-            const newsData = JSON.parse(readFileSync(dataPath, "utf-8"));
-            resolve({
-              success: true,
-              data: newsData,
-              timestamp: (/* @__PURE__ */ new Date()).toISOString(),
-              count: newsData.length,
-              source: "Noticias reales de medios argentinos",
-              scraperOutput: output.split("\n").slice(-5)
-              // Últimas 5 líneas del output
-            });
-          } catch (parseError) {
-            console.error("Error parseando JSON:", parseError);
-            reject({
-              success: false,
-              error: "Error parseando datos de noticias",
-              message: parseError.message,
-              timestamp: (/* @__PURE__ */ new Date()).toISOString()
-            });
-          }
-        } else {
-          reject({
-            success: false,
-            error: "El scraper no gener\xF3 archivo de datos",
-            message: "No se pudo crear el archivo de noticias reales",
-            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
-            scraperOutput: output,
-            scraperError: errorOutput
-          });
-        }
-      });
-      pythonProcess.on("error", (error) => {
-        console.error("Error ejecutando scraper:", error);
-        reject({
-          success: false,
-          error: "Error ejecutando scraper de noticias",
-          message: error.message,
-          timestamp: (/* @__PURE__ */ new Date()).toISOString()
-        });
-      });
-      setTimeout(() => {
-        pythonProcess.kill();
-        reject({
-          success: false,
-          error: "Timeout del scraper",
-          message: "El scraper tard\xF3 demasiado tiempo",
-          timestamp: (/* @__PURE__ */ new Date()).toISOString()
-        });
-      }, 45e3);
-    });
+      if (existsSync(dataPath)) {
+        const newsData = JSON.parse(readFileSync(dataPath, "utf-8"));
+        return {
+          success: true,
+          data: newsData,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          count: newsData.length,
+          source: "Noticias reales de medios argentinos"
+        };
+      } else {
+        throw new Error("Archivo no generado por el scraper");
+      }
+    } catch (execError) {
+      console.error("Error ejecutando scraper:", execError);
+      if (existsSync(dataPath)) {
+        const newsData = JSON.parse(readFileSync(dataPath, "utf-8"));
+        return {
+          success: true,
+          data: newsData,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+          count: newsData.length,
+          source: "Noticias reales (fallback)",
+          warning: "Usando datos anteriores debido a error en scraper"
+        };
+      }
+      throw execError;
+    }
   } catch (error) {
-    console.error("Error obteniendo noticias:", error);
+    console.error("Error general:", error);
     return {
       success: false,
-      error: "Error al obtener noticias en vivo",
+      error: "Error obteniendo noticias en vivo",
       message: error.message,
       timestamp: (/* @__PURE__ */ new Date()).toISOString()
     };

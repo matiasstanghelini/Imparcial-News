@@ -91,26 +91,33 @@ const setNewsSource = async (source) => {
   if (source === newsSource.value) return
   
   loading.value = true
-  newsSource.value = source
   
   try {
     if (source === 'live') {
-      // Fetch live news from API
+      console.log('Fetching live news...')
       const response = await $fetch('/api/news/live')
-      if (response.success && response.data && response.data.length > 0) {
+      console.log('API Response:', response)
+      
+      if (response && response.success && response.data && response.data.length > 0) {
         newsData.value = response.data
+        newsSource.value = 'live'
+        console.log(`Loaded ${response.data.length} live news items`)
       } else {
-        throw new Error('No se pudieron obtener noticias en vivo')
+        console.error('API response error:', response)
+        newsData.value = news
+        newsSource.value = 'demo'
+        alert('Error obteniendo noticias en vivo. Mostrando noticias de ejemplo.')
       }
     } else {
       // Use demo news
       newsData.value = news
+      newsSource.value = 'demo'
     }
   } catch (error) {
-    console.error('Error cargando noticias:', error)
-    // Fallback to demo news on error
+    console.error('Network error:', error)
     newsData.value = news
     newsSource.value = 'demo'
+    alert('Error de conexión. Mostrando noticias de ejemplo.')
   } finally {
     loading.value = false
   }
