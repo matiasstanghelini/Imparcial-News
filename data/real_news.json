@@ -189,6 +189,69 @@
     }
   },
   {
+    "title": "Tiene ocho episodios, está en Prime Video y esconde un impactante secreto",
+    "summary": "La producción estadounidense dirigida por Erica Dunton y Nzingh Stewar aterrizó en la plataforma de streaming hace una semana y ya se convirtió en una de las más vistas",
+    "source": "La Nación",
+    "date": "2025-06-25",
+    "url": "https://www.lanacion.com.ar/espectaculos/tiene-ocho-episodios-esta-en-prime-video-y-esconde-un-impactante-secreto-nid25062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 10,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Murió Antonio Tabanelli, dueño de Boldt y empresario multifacético",
+    "summary": "Dedicó su carrera a la vida corporativa, dirigió varias cámaras y tuvo un rol destacado en el rugby",
+    "source": "La Nación",
+    "date": "2025-06-25",
+    "url": "https://www.lanacion.com.ar/economia/murio-antonio-tabanelli-dueno-de-boldt-y-empresario-multifacetico-nid25062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 11,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Los mejores memes del partido de River-Inter de Milán por el Mundial de Clubes",
+    "summary": "El equipo dirigido por Gallardo se mide con el italiano con esperanzas de clasificar en la última fecha del Grupo E; los fanáticos utilizaron las redes para expresar su ilusión",
+    "source": "La Nación",
+    "date": "2025-06-25",
+    "url": "https://www.lanacion.com.ar/deportes/los-mejores-memes-del-partido-de-river-inter-de-milan-por-el-mundial-de-clubes-nid25062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 12,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
     "title": "La Justicia le concedió la prisión domiciliaria a José Alperovich: cumplirá la condena en el departamento de Puerto Made",
     "summary": "Noticia de TN",
     "source": "TN",
@@ -196,7 +259,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/25/la-justicia-le-dio-prision-domiciliaria-a-alperovich-cumplira-la-condena-en-el-lugar-donde-violo-a-su-sobrina/",
     "verdict": "uncertain",
     "image": null,
-    "id": 10,
+    "id": 13,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -217,7 +280,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/25/la-condena-a-cristina-kirchner-marco-el-debate-en-el-senado-sobre-la-ampliacion-de-la-corte-suprema/",
     "verdict": "uncertain",
     "image": null,
-    "id": 11,
+    "id": 14,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -238,7 +301,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/25/el-gobierno-critico-la-media-sancion-de-la-reeleccion-indefinida-de-legisladores-en-pba/",
     "verdict": "uncertain",
     "image": null,
-    "id": 12,
+    "id": 15,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -252,62 +315,20 @@
     }
   },
   {
-    "title": "Dura acusación de la DEA: las pruebas que revelan cómo el Cartel de Jalisco espiaba a agentes en EE.UU.",
-    "summary": "La DEA presenta pruebas contundentes sobre cómo el Cartel de Jalisco espió a sus agentes en EE.UU. El agente especial Matthew Allen reveló detalles de las operaciones de espionaje durante juicios en Washington. Descubre más sobre esta grave acusación",
-    "source": "La Nación",
+    "title": "Quién es Alexia Abaigar, la funcionaria de Axel Kicillof detenida por tirar caca en la casa de Espert",
+    "summary": "Noticia de iProfesional",
+    "source": "iProfesional",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/estados-unidos/dura-acusacion-de-la-dea-las-pruebas-que-revelan-como-el-cartel-de-jalisco-espiaba-a-agentes-en-eeuu-nid25062025/",
+    "url": "https://www.iprofesional.com/politica/politica/431465-quien-es-funcionaria-de-axel-kicillof-detenida-por-tirar-caca-en-casa-jose-luis-espert",
     "verdict": "uncertain",
     "image": null,
-    "id": 13,
+    "id": 16,
     "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
+      "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Detienen a piloto vinculado al tráfico de cocaína en avioneta incautada en Entre Ríos",
-    "summary": "Tras el hallazgo de la droga en una avioneta en Ibicuy, Gendarmería detuvo a un piloto peruano y allanó seis domicilios, donde secuestró drogas, dinero, oro, armas y equipos usados para el narcotráfico aéreo",
-    "source": "La Nación",
-    "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/seguridad/detienen-a-piloto-vinculado-al-trafico-de-cocaina-en-avioneta-incautada-en-entre-rios-nid25062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 14,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "El fuerte aviso para el Mundial 2026 tras los cinco partidos interrumpidos por alguna “alerta climática” en el Mundial d",
-    "summary": "Estados Unidos, sede del torneo, padece una ola de calor y se habituó a los avisos de tormenta eléctrica",
-    "source": "La Nación",
-    "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/deportes/futbol/el-fuerte-aviso-para-el-mundial-2026-tras-los-cinco-partidos-interrumpidos-por-alguna-alerta-nid25062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 15,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
+        "📰 Fuente: iProfesional",
         "📅 Fecha: 2025-06-25",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
@@ -322,7 +343,7 @@
     "url": "https://www.iprofesional.com/politica/politica/431459-prision-domiciliaria-para-jose-alperovich-condenado-por-abuso-sexual-vivira-puerto-madero",
     "verdict": "uncertain",
     "image": null,
-    "id": 16,
+    "id": 17,
     "agents": {
       "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -341,27 +362,6 @@
     "source": "iProfesional",
     "date": "2025-06-25",
     "url": "https://www.iprofesional.com/politica/politica/431453-justicia-fijo-una-audiencia-para-definir-regimen-visitas-cristina-kirchner",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 17,
-    "agents": {
-      "logic": "Noticia de iProfesional - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: iProfesional",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Milei se queda sin superpoderes: qué implica para el plan motosierra y cómo afecta a Sturzenegger",
-    "summary": "Noticia de iProfesional",
-    "source": "iProfesional",
-    "date": "2025-06-25",
-    "url": "https://www.iprofesional.com/politica/politica/431448-javier-milei-federico-sturzenegger-pierden-superpoderes-que-cosas-no-podran-hacer",
     "verdict": "uncertain",
     "image": null,
     "id": 18,
@@ -420,69 +420,6 @@
     }
   },
   {
-    "title": "Con Congreso vallado, marcharon el nuevo \"frente multisectorial\" y los jubilados",
-    "summary": "Noticia de El Destape Web",
-    "source": "El Destape Web",
-    "date": "2025-06-25",
-    "url": "https://www.eldestapeweb.com/politica/politica/jubilados/con-un-congreso-vallado-marcharon-el-nuevo-frente-multisectorial-y-los-jubilados-contra-las-politicas-de-milei-2025625183210",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 21,
-    "agents": {
-      "logic": "Noticia de El Destape Web - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: El Destape Web",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Katopodis exigió a Milei que use o transfiera un crédito para Bahía Blanca",
-    "summary": "Noticia de El Destape Web",
-    "source": "El Destape Web",
-    "date": "2025-06-25",
-    "url": "https://www.eldestapeweb.com/politica/politica/provincia-de-buenos-aires/katopodis-le-exigio-a-milei-que-use-o-le-transfiera-un-credito-del-banco-mundial-para-bahia-blanca-202562518176",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 22,
-    "agents": {
-      "logic": "Noticia de El Destape Web - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: El Destape Web",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Legisladores de UP defendieron su \"derecho\" de visitar a CFK \"sin restricciones\"",
-    "summary": "Noticia de El Destape Web",
-    "source": "El Destape Web",
-    "date": "2025-06-25",
-    "url": "https://www.eldestapeweb.com/politica/politica/la-condena-de-cristina/diputados-y-senadores-de-up-defendieron-su-derecho-de-visitar-a-cfk-sin-restricciones--20256251851",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 23,
-    "agents": {
-      "logic": "Noticia de El Destape Web - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: El Destape Web",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
     "title": "De cara a la elección bonaerense, Milei encabezará el cierre del congreso de LLA en La Plata",
     "summary": "Noticia de Minuto Uno",
     "source": "Minuto Uno",
@@ -490,7 +427,7 @@
     "url": "https://www.minutouno.com/politica/de-cara-la-eleccion-bonaerense-javier-milei-encabezara-el-cierre-del-congreso-libertario-la-plata-n6160377",
     "verdict": "uncertain",
     "image": null,
-    "id": 24,
+    "id": 21,
     "agents": {
       "logic": "Noticia de Minuto Uno - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -511,13 +448,76 @@
     "url": "https://www.minutouno.com/politica/fijan-fecha-audiencia-definir-quien-podra-visitar-cristina-kirchner-su-casa-constitucion-n6160392",
     "verdict": "uncertain",
     "image": null,
-    "id": 25,
+    "id": 22,
     "agents": {
       "logic": "Noticia de Minuto Uno - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: Minuto Uno",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Provocadora: Lilia Lemoine filmó a jubilados en Congreso y tuvo que ser retirada por la Policía",
+    "summary": "Noticia de Minuto Uno",
+    "source": "Minuto Uno",
+    "date": "2025-06-25",
+    "url": "https://www.minutouno.com/politica/provocadora-lilia-lemoine-filmo-jubilados-congreso-y-tuvo-que-ser-retirada-la-policia-n6160370",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 23,
+    "agents": {
+      "logic": "Noticia de Minuto Uno - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Minuto Uno",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Con Congreso vallado, marcharon el nuevo \"frente multisectorial\" y los jubilados",
+    "summary": "Noticia de El Destape Web",
+    "source": "El Destape Web",
+    "date": "2025-06-25",
+    "url": "https://www.eldestapeweb.com/politica/politica/jubilados/con-un-congreso-vallado-marcharon-el-nuevo-frente-multisectorial-y-los-jubilados-contra-las-politicas-de-milei-2025625183210",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 24,
+    "agents": {
+      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: El Destape Web",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Katopodis exigió a Milei que use o transfiera un crédito para Bahía Blanca",
+    "summary": "Noticia de El Destape Web",
+    "source": "El Destape Web",
+    "date": "2025-06-25",
+    "url": "https://www.eldestapeweb.com/politica/politica/provincia-de-buenos-aires/katopodis-le-exigio-a-milei-que-use-o-le-transfiera-un-credito-del-banco-mundial-para-bahia-blanca-202562518176",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 25,
+    "agents": {
+      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: El Destape Web",
         "📅 Fecha: 2025-06-25",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"

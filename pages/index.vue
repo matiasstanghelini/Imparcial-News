@@ -58,7 +58,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { RefreshCw } from 'lucide-vue-next'
 
 // News data and loading state
@@ -94,4 +94,9 @@ const formatTime = (date) => {
     minute: '2-digit' 
   })
 }
+
+// Auto-load news on page mount
+onMounted(() => {
+  fetchLiveNews()
+})
 </script>
