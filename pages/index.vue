@@ -1,11 +1,12 @@
 <template>
   <div class="container mx-auto px-4 py-8">
     <!-- Header -->
-    <header class="mb-8 border-b border-gray-200 pb-6">
-      <h1 class="text-5xl font-bold text-gray-900 mb-3 tracking-tight">
+    <header class="mb-8 border-b border-gray-200 pb-4 text-center">
+      <h1 class="text-4xl font-bold text-gray-900 mb-1 tracking-tight">
         Imparcial
       </h1>
-      <p class="text-lg text-gray-600 font-medium">
+      <div class="w-16 h-0.5 bg-blue-600 mx-auto mb-2"></div>
+      <p class="text-base text-gray-600 font-medium">
         news powered by AI
       </p>
     </header>

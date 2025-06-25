@@ -96,9 +96,10 @@ Preferred communication style: Simple, everyday language.
 - **June 25, 2025 - BBC Mundo Style Transformation**:
   - Completely rebranded to "Imparcial, news powered by AI" with modern BBC Mundo-inspired design
   - Applied Inter and Noto Sans modern font families throughout the platform
-  - Transformed NewsCard component with BBC-style layout: clickeable cards, compact design, AI analysis badges
+  - Created centered header with elegant divider line between title and subtitle
+  - Simplified NewsCard component: clean layout showing only source logo, title, and summary
   - Eliminated "read article" buttons - entire news cards are now clickeable for direct AI analysis access
-  - Added prominent AI analysis preview sections in each news card
+  - Added MediaLogo component with newspaper icons and branded colors for Argentine media outlets
   - Implemented responsive grid layout (1-4 columns) for optimal viewing across devices
   - Fixed automatic loading loop issue by removing onMounted auto-fetch
 
