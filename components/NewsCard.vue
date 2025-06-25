@@ -3,7 +3,7 @@
     <!-- News Header -->
     <div class="mb-4">
       <div class="flex items-center justify-between mb-2">
-        <span class="text-sm text-gray-500 font-medium">{{ article.source }}</span>
+        <MediaLogo :source="article.source" />
         <span class="text-sm text-gray-400">{{ formatDate(article.date) }}</span>
       </div>
       

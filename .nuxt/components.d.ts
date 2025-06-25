@@ -15,6 +15,7 @@ interface _GlobalComponents {
       'AgentAnalysis': typeof import("../components/AgentAnalysis.vue")['default']
     'AgentTag': typeof import("../components/AgentTag.vue")['default']
     'AgentToggle': typeof import("../components/AgentToggle.vue")['default']
+    'MediaLogo': typeof import("../components/MediaLogo.vue")['default']
     'NewsCard': typeof import("../components/NewsCard.vue")['default']
     'SequentialAnalysis': typeof import("../components/SequentialAnalysis.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -44,6 +45,7 @@ interface _GlobalComponents {
       'LazyAgentAnalysis': LazyComponent<typeof import("../components/AgentAnalysis.vue")['default']>
     'LazyAgentTag': LazyComponent<typeof import("../components/AgentTag.vue")['default']>
     'LazyAgentToggle': LazyComponent<typeof import("../components/AgentToggle.vue")['default']>
+    'LazyMediaLogo': LazyComponent<typeof import("../components/MediaLogo.vue")['default']>
     'LazyNewsCard': LazyComponent<typeof import("../components/NewsCard.vue")['default']>
     'LazySequentialAnalysis': LazyComponent<typeof import("../components/SequentialAnalysis.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
@@ -79,6 +81,7 @@ declare module 'vue' {
 export const AgentAnalysis: typeof import("../components/AgentAnalysis.vue")['default']
 export const AgentTag: typeof import("../components/AgentTag.vue")['default']
 export const AgentToggle: typeof import("../components/AgentToggle.vue")['default']
+export const MediaLogo: typeof import("../components/MediaLogo.vue")['default']
 export const NewsCard: typeof import("../components/NewsCard.vue")['default']
 export const SequentialAnalysis: typeof import("../components/SequentialAnalysis.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -108,6 +111,7 @@ export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/
 export const LazyAgentAnalysis: LazyComponent<typeof import("../components/AgentAnalysis.vue")['default']>
 export const LazyAgentTag: LazyComponent<typeof import("../components/AgentTag.vue")['default']>
 export const LazyAgentToggle: LazyComponent<typeof import("../components/AgentToggle.vue")['default']>
+export const LazyMediaLogo: LazyComponent<typeof import("../components/MediaLogo.vue")['default']>
 export const LazyNewsCard: LazyComponent<typeof import("../components/NewsCard.vue")['default']>
 export const LazySequentialAnalysis: LazyComponent<typeof import("../components/SequentialAnalysis.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>

@@ -10,8 +10,42 @@
       </p>
     </header>
 
-    <!-- Agent Toggle Controls -->
-    <div class="mb-6">
+    <!-- Controls -->
+    <div class="mb-6 space-y-4">
+      <!-- News Source Toggle -->
+      <div class="flex items-center gap-4 bg-white p-4 rounded-lg shadow-sm">
+        <span class="text-sm font-medium text-gray-700">Fuente de noticias:</span>
+        <div class="flex gap-2">
+          <button
+            @click="setNewsSource('demo')"
+            :class="newsSource === 'demo' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+            class="px-4 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
+          >
+            Noticias de Ejemplo
+          </button>
+          <button
+            @click="setNewsSource('live')"
+            :class="newsSource === 'live' ? 'bg-green-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+            class="px-4 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
+          >
+            Noticias en Vivo
+          </button>
+          <button
+            v-if="newsSource === 'live'"
+            @click="refreshNews"
+            :disabled="loading"
+            class="px-3 py-2 bg-blue-100 text-blue-700 hover:bg-blue-200 disabled:opacity-50 rounded-lg transition-colors duration-200 font-medium text-sm"
+          >
+            🔄 Actualizar
+          </button>
+        </div>
+        <div v-if="loading" class="flex items-center gap-2 text-sm text-gray-500">
+          <div class="w-4 h-4 border-2 border-gray-300 border-t-blue-600 rounded-full animate-spin"></div>
+          Cargando...
+        </div>
+      </div>
+
+      <!-- Agent Toggle Controls -->
       <AgentToggle 
         :visible-agents="visibleAgents" 
         @toggle="toggleAgent" 
@@ -34,8 +68,10 @@
 import { ref } from 'vue'
 import { news } from '~/data/news.js'
 
-// News data
+// News data and source management
 const newsData = ref(news)
+const newsSource = ref('demo') // 'demo' or 'live'
+const loading = ref(false)
 
 // Agent visibility state
 const visibleAgents = ref({
@@ -48,5 +84,42 @@ const visibleAgents = ref({
 // Toggle agent visibility
 const toggleAgent = (agentType) => {
   visibleAgents.value[agentType] = !visibleAgents.value[agentType]
+}
+
+// Set news source
+const setNewsSource = async (source) => {
+  if (source === newsSource.value) return
+  
+  loading.value = true
+  newsSource.value = source
+  
+  try {
+    if (source === 'live') {
+      // Fetch live news from API
+      const response = await $fetch('/api/news/live')
+      if (response.success && response.data && response.data.length > 0) {
+        newsData.value = response.data
+      } else {
+        throw new Error('No se pudieron obtener noticias en vivo')
+      }
+    } else {
+      // Use demo news
+      newsData.value = news
+    }
+  } catch (error) {
+    console.error('Error cargando noticias:', error)
+    // Fallback to demo news on error
+    newsData.value = news
+    newsSource.value = 'demo'
+  } finally {
+    loading.value = false
+  }
+}
+
+// Refresh news function
+const refreshNews = () => {
+  if (newsSource.value === 'live') {
+    setNewsSource('live')
+  }
 }
 </script>
