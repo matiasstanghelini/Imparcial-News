@@ -1,10 +1,10 @@
 [
   {
-    "title": "Qué le pasó a Momi Giardina en el stream de La Voz Argentina",
-    "summary": "La integrante del panel abandonó el estudio en plena transmisión y generó preocupación entre sus compañeros; el video del momento",
+    "title": "Quiénes son los candidatos de las elecciones 2025 en Formosa",
+    "summary": "Los formoseños votan este domingo convencionales constituyentes, diputados provinciales y otros cargos municipales; ¿qué es la ley de Lemas?",
     "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/espectaculos/que-le-paso-a-momi-giardina-en-el-stream-de-la-voz-argentina-nid25062025/",
+    "url": "https://www.lanacion.com.ar/politica/quienes-son-los-candidatos-de-las-elecciones-2025-en-formosa-nid25062025/",
     "verdict": "uncertain",
     "id": 1,
     "agents": {
@@ -20,11 +20,11 @@
     }
   },
   {
-    "title": "Sucesión de Sarlo: se confirmó quién hará el peritaje del supuesto testamento para definir si es válido",
-    "summary": "LA NACION pudo saber hoy que Liliana Marina Ibáñez fue designada “perito único de oficio” para realizar el informe caligráfico; la tarea le llevará diez días a partir del regreso del expediente desde la Cámara de Apelaciones que determinará si Albert",
+    "title": "Dólar hoy, dólar blue hoy: a cuánto cotiza este miércoles 25 de junio",
+    "summary": "La divisa paralela que se comercializa en el mercado informal cotiza a $1210 para la venta; en tanto, el dólar oficial opera a $1205 para la misma transacción",
     "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/cultura/sucesion-de-sarlo-se-confirmo-quien-hara-el-peritaje-del-supuesto-testamento-para-definir-si-es-nid25062025/",
+    "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-dolar-blue-hoy-a-cuanto-cotiza-este-miercoles-25-de-junio-nid25062025/",
     "verdict": "uncertain",
     "id": 2,
     "agents": {
@@ -40,11 +40,11 @@
     }
   },
   {
-    "title": "Quién es Lauren Sánchez, la futura esposa de Jeff Bezos: celebrarán una boda de tres días en Venecia",
-    "summary": "La empresaria y expresentadora de TV se encuentra en los preparativos finales para su unión con el fundador de Amazon",
+    "title": "Así será la millonaria boda en Venecia con 200 invitados VIP de Jeff Bezos con Lauren Sánchez",
+    "summary": "El fundador de Amazon y su futura esposa celebran su unión en la ciudad de los canales; el evento reunirá a celebridades, empresarios y políticos, pero también genera controversia y protestas",
     "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/espectaculos/quien-es-lauren-sanchez-la-futura-esposa-de-jeff-bezos-celebraran-una-boda-de-tres-dias-en-venecia-nid25062025/",
+    "url": "https://www.lanacion.com.ar/el-mundo/asi-sera-la-millonaria-boda-en-venecia-con-200-invitados-vip-de-jeff-bezos-con-lauren-sanchez-nid25062025/",
     "verdict": "uncertain",
     "id": 3,
     "agents": {
@@ -53,6 +53,66 @@
       "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
       "synth": [
         "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "Tensión en el Congreso: Lilia Lemoine filmó a jubilados que asistían a la marcha y fue increpada",
+    "summary": "La diputada de La Libertad Avanza fue escoltada por la Policía Federal tras un fuerte cruce con manifestantes que reclamaban mejoras en las jubilaciones.",
+    "source": "Ámbito",
+    "date": "2025-06-25",
+    "url": "https://www.ambito.com/politica/tension-el-congreso-lilia-lemoine-filmo-jubilados-que-asistian-la-marcha-y-fue-increpada-n6160379",
+    "verdict": "uncertain",
+    "id": 4,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "Franco Colapinto se ilusiona con el Gran Premio de Austria: \"Tenemos potencial para sumar puntos\"",
+    "summary": "El piloto argentino se mostró confiado en sus posibilidades y destacó que es una pista que conoce bien.",
+    "source": "Ámbito",
+    "date": "2025-06-25",
+    "url": "https://www.ambito.com/deportes/franco-colapinto-se-ilusiona-el-gran-premio-austria-tenemos-potencial-sumar-puntos-n6160363",
+    "verdict": "uncertain",
+    "id": 5,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia real obtenida de RSS",
+        "⚡ Tipo: Información en tiempo real"
+      ]
+    }
+  },
+  {
+    "title": "Murió un juvenil de San Telmo durante una operación de la rodilla",
+    "summary": "El club del ascenso comunicó esta tarde el fallecimiento de un futbolista de su Reserva, por causas que aún se desconocen.",
+    "source": "Ámbito",
+    "date": "2025-06-25",
+    "url": "https://www.ambito.com/deportes/luto-el-futbol-argentino-la-muerte-un-juvenil-san-telmo-n6160350",
+    "verdict": "uncertain",
+    "id": 6,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente confiable que requiere verificación de hechos específicos",
+      "context": "Publicada el 2025-06-25 - Análisis de contexto histórico y social pendiente",
+      "expert": "Evaluación técnica especializada requerida para confirmar datos y cifras mencionadas",
+      "synth": [
+        "📰 Fuente: Ámbito",
         "📅 Fecha: 2025-06-25",
         "🔍 Estado: Noticia real obtenida de RSS",
         "⚡ Tipo: Información en tiempo real"

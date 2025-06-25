@@ -5,8 +5,8 @@ import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
 import { escapeHtml } from 'file:///home/runner/workspace/node_modules/@vue/shared/dist/shared.cjs.js';
-import { existsSync, statSync, readFileSync } from 'node:fs';
 import { execSync } from 'node:child_process';
+import { writeFileSync, unlinkSync, existsSync, statSync, readFileSync } from 'node:fs';
 import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/runner/workspace/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file:///home/runner/workspace/node_modules/ufo/dist/index.mjs';
 import { renderToString } from 'file:///home/runner/workspace/node_modules/vue/server-renderer/index.mjs';
@@ -1429,10 +1429,12 @@ async function getIslandContext(event) {
   return ctx;
 }
 
+const _lazy_R0naKI = () => Promise.resolve().then(function () { return extract_post$1; });
 const _lazy_6gZwsp = () => Promise.resolve().then(function () { return live_get$1; });
 const _lazy_rVqwY9 = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
+  { route: '/api/content/extract', handler: _lazy_R0naKI, lazy: true, middleware: false, method: "post" },
   { route: '/api/news/live', handler: _lazy_6gZwsp, lazy: true, middleware: false, method: "get" },
   { route: '/__nuxt_error', handler: _lazy_rVqwY9, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
@@ -1769,6 +1771,99 @@ const styles = {};
 const styles$1 = /*#__PURE__*/Object.freeze({
   __proto__: null,
   default: styles
+});
+
+const extract_post = defineEventHandler(async (event) => {
+  try {
+    const body = await readBody(event);
+    const { url } = body;
+    if (!url) {
+      return {
+        success: false,
+        error: "URL requerida"
+      };
+    }
+    console.log("Extrayendo contenido de:", url);
+    const tempScript = join(process.cwd(), "temp_extract.py");
+    const scriptContent = `
+import trafilatura
+import sys
+import json
+
+def extract_content(url):
+    try:
+        downloaded = trafilatura.fetch_url(url)
+        if downloaded:
+            text = trafilatura.extract(downloaded, include_comments=False, include_tables=True)
+            if text:
+                return {
+                    'success': True,
+                    'content': text,
+                    'length': len(text)
+                }
+        return {
+            'success': False,
+            'error': 'No se pudo extraer contenido'
+        }
+    except Exception as e:
+        return {
+            'success': False,
+            'error': str(e)
+        }
+
+if __name__ == "__main__":
+    url = sys.argv[1]
+    result = extract_content(url)
+    print(json.dumps(result, ensure_ascii=False))
+`;
+    writeFileSync(tempScript, scriptContent);
+    try {
+      const output = execSync(`python3 ${tempScript} "${url}"`, {
+        timeout: 15e3,
+        encoding: "utf-8",
+        maxBuffer: 1024 * 1024 * 5
+        // 5MB buffer
+      });
+      unlinkSync(tempScript);
+      const result = JSON.parse(output.trim());
+      if (result.success) {
+        return {
+          success: true,
+          content: result.content,
+          length: result.length,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        };
+      } else {
+        return {
+          success: false,
+          error: result.error || "Error extrayendo contenido"
+        };
+      }
+    } catch (execError) {
+      try {
+        unlinkSync(tempScript);
+      } catch {
+      }
+      console.error("Error ejecutando extractor:", execError);
+      return {
+        success: false,
+        error: "Error procesando el contenido del art\xEDculo",
+        details: execError.message
+      };
+    }
+  } catch (error) {
+    console.error("Error general:", error);
+    return {
+      success: false,
+      error: "Error interno del servidor",
+      message: error.message
+    };
+  }
+});
+
+const extract_post$1 = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: extract_post
 });
 
 const live_get = defineEventHandler(async (event) => {

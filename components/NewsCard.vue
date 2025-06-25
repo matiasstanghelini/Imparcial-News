@@ -4,10 +4,12 @@
     <div class="mb-4">
       <div class="flex items-center justify-between mb-2">
         <MediaLogo :source="article.source" />
-        <span class="text-sm text-gray-400">{{ formatDate(article.date) }}</span>
+        <button @click.stop="openExternalLink" class="text-gray-400 hover:text-blue-600 transition-colors">
+          <ExternalLink class="h-5 w-5" />
+        </button>
       </div>
       
-      <h2 class="text-xl font-semibold text-gray-900 mb-3 leading-tight">
+      <h2 class="text-xl font-semibold text-gray-900 mb-3 leading-tight cursor-pointer hover:text-blue-600" @click="goToDetail">
         {{ article.title }}
       </h2>
       
@@ -41,15 +43,14 @@
     <!-- Analysis Mode Toggle -->
     <div class="flex gap-2 mb-4">
       <button
-        @click="setAnalysisMode('standard')"
-        :class="analysisMode === 'standard' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
-        class="px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
+        @click="goToDetail"
+        class="bg-blue-600 text-white px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm hover:bg-blue-700"
       >
-        Vista Estándar
+        Ver Análisis Completo
       </button>
       <button
         @click="setAnalysisMode('sequential')"
-        :class="analysisMode === 'sequential' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
+        :class="analysisMode === 'sequential' ? 'bg-green-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
         class="px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
       >
         Vista Proceso IA
@@ -96,6 +97,7 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { ExternalLink } from 'lucide-vue-next'
 
 const props = defineProps({
   article: {
@@ -117,6 +119,15 @@ const toggleExpanded = () => {
 
 const setAnalysisMode = (mode) => {
   analysisMode.value = mode
+}
+
+// Navigation functions
+const goToDetail = () => {
+  navigateTo(`/noticia/${props.article.id}`)
+}
+
+const openExternalLink = () => {
+  window.open(props.article.url, '_blank')
 }
 
 // Verdict styling

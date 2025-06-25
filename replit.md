@@ -93,6 +93,14 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+- **June 25, 2025 - Detail View Implementation**:
+  - Created dedicated news detail page (/noticia/[id]) with full article content
+  - Added content extraction API using Trafilatura for complete article text
+  - Implemented two-column layout: article content (left) + AI agents analysis (right)
+  - Added external link icon in news cards for direct source access
+  - Removed date display from main news cards for cleaner UI
+  - Modified "Vista Estándar" button to redirect to detailed analysis view
+
 - **June 25, 2025 - Live News Integration**: 
   - Added MediaLogo component with branded logos for Argentine newspapers
   - Created live news API endpoint (/api/news/live) with real-time data
