@@ -58,6 +58,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { RefreshCw } from 'lucide-vue-next'
 
 // News data and loading state
 const newsData = ref([])
