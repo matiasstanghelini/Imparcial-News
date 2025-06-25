@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a Nuxt 3-based web application that provides AI-powered news analysis through multiple specialized agents. The platform displays news articles with intelligent verification and analysis, using a multi-agent system to evaluate news credibility through different analytical lenses.
+This is a Nuxt 3-based web application that aggregates live news from major Argentine media outlets. The platform displays news articles in a traditional newspaper format, focusing exclusively on real-time news coverage without AI analysis filters.
 
 ## System Architecture
 
@@ -93,12 +93,13 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- **June 25, 2025 - Advanced Scraping System**:
-  - Implemented hybrid scraper combining RSS feeds and web scraping for maximum coverage
-  - Expanded from 3 to 15 news sources across 5 major Argentine media outlets
-  - Successfully integrated TN, Infobae, and additional sources through alternative scraping methods
-  - Created fast parallel scraper with timeout controls for production reliability
-  - Added comprehensive media logos for all Argentine news sources
+- **June 25, 2025 - Newspaper Platform Transformation**:
+  - Completely removed AI agent analysis filters and focused exclusively on live news
+  - Expanded to 13 Argentine media outlets: La Nación, Clarín, Página/12, Ámbito, El Cronista, TN, iProfesional, Chequeado, Minuto Uno, El Destape Web, etc.
+  - Increased news coverage from 15 to 25 articles across major Argentine media
+  - Redesigned NewsCard component with traditional newspaper aesthetic using serif fonts
+  - Added image placeholders and traditional newspaper layout structure
+  - Implemented automatic live news loading on page initialization
 
 - **June 25, 2025 - Detail View Implementation**:
   - Created dedicated news detail page (/noticia/[id]) with full article content

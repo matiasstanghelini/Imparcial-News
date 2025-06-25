@@ -57,13 +57,29 @@ const logoData = {
     initials: 'P',
     color: 'bg-indigo-600'
   },
-  'IProfesional': {
-    initials: 'IP',
+  'iProfesional': {
+    initials: 'iP',
     color: 'bg-teal-600'
   },
-  'BAE': {
-    initials: 'BAE',
-    color: 'bg-emerald-600'
+  'Chequeado': {
+    initials: 'CH',
+    color: 'bg-green-600'
+  },
+  'Filo News': {
+    initials: 'FN',
+    color: 'bg-purple-600'
+  },
+  'Minuto Uno': {
+    initials: 'M1',
+    color: 'bg-orange-600'
+  },
+  'El Destape Web': {
+    initials: 'ED',
+    color: 'bg-pink-600'
+  },
+  'El Cronista': {
+    initials: 'CR',
+    color: 'bg-blue-800'
   },
   'Cronista': {
     initials: 'CR',

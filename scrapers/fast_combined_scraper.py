@@ -59,7 +59,8 @@ def scrape_rss_feed(source_name, feed_url):
                         'source': source_name,
                         'date': date,
                         'url': url,
-                        'verdict': 'uncertain'
+                        'verdict': 'uncertain',
+                        'image': None  # Para futuras implementaciones de extracción de imágenes
                     })
                     
             except:
@@ -131,7 +132,8 @@ def scrape_web_simple(source_name, url):
                         'source': source_name,
                         'date': datetime.now().strftime('%Y-%m-%d'),
                         'url': href,
-                        'verdict': 'uncertain'
+                        'verdict': 'uncertain',
+                        'image': None  # Para futuras implementaciones de extracción de imágenes
                     })
                     
                     if len(news_items) >= 3:
@@ -162,16 +164,21 @@ def main():
     """Función principal optimizada"""
     print("=== Scraper Rápido Medios Argentinos ===")
     
-    # Configuración de fuentes
+    # Configuración de fuentes - Medios argentinos ampliados
     sources = {
         'La Nación': {'rss': 'https://www.lanacion.com.ar/arcio/rss/'},
         'Clarín': {'rss': 'https://www.clarin.com/rss/politica/'},
         'Página/12': {'rss': 'https://www.pagina12.com.ar/rss/portada'},
         'Ámbito': {'rss': 'https://www.ambito.com/rss/politica.xml'},
-        'Cronista': {'rss': 'https://www.cronista.com/rss/politica.xml'},
+        'El Cronista': {'rss': 'https://www.cronista.com/rss/politica.xml'},
         'Infobae': {'web': 'https://www.infobae.com/politica/'},
         'TN': {'web': 'https://tn.com.ar/politica/'},
-        'Perfil': {'web': 'https://www.perfil.com/seccion/politica'}
+        'Perfil': {'web': 'https://www.perfil.com/seccion/politica'},
+        'iProfesional': {'web': 'https://www.iprofesional.com/politica/'},
+        'Chequeado': {'web': 'https://chequeado.com/'},
+        'Filo News': {'web': 'https://www.filo.news/politica/'},
+        'Minuto Uno': {'web': 'https://www.minutouno.com/politica/'},
+        'El Destape Web': {'web': 'https://www.eldestapeweb.com/politica/'}
     }
     
     all_news = []
@@ -208,9 +215,9 @@ def main():
             unique_news.append(news)
             seen_titles.add(title_key)
     
-    # Ordenar y limitar
+    # Ordenar y limitar - Aumentar a 25 noticias con más medios
     unique_news = sorted(unique_news, key=lambda x: x['date'], reverse=True)
-    unique_news = unique_news[:15]
+    unique_news = unique_news[:25]
     
     # Agregar estructura de agentes
     for i, news in enumerate(unique_news, 1):

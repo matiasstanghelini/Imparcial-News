@@ -1,12 +1,34 @@
 [
   {
+    "title": "Javier Milei compartirá una cena con el bloque de diputados libertarios para bajar línea en clave electoral",
+    "summary": "El encuentro tendrá lugar esta noche en Puerto Madero y las invitaciones fueron cursadas por Karina Milei y los estrategas de la Fundación El Faro, que comanda Agustín Laje.",
+    "source": "Clarín",
+    "date": "2025-06-25",
+    "url": "https://www.clarin.com/politica/javier-milei-mantendra-cena-bloque-diputados-libertarios-bajar-linea-clave-electoral_0_ZRWVlzkU1T.html",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 1,
+    "agents": {
+      "logic": "Noticia de Clarín - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Clarín",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
     "title": "Mauricio Macri respaldó la decisión de la justicia en la condena a Cristina Kirchner: \"Si uno no hace las cosas dentro d",
     "summary": "El expresidente realizó declaraciones en Ituzaingó, Corrientes, donde inauguró un puente con el gobernador.",
     "source": "Clarín",
     "date": "2025-06-25",
     "url": "https://www.clarin.com/politica/mauricio-macri-respaldo-decision-justicia-condena-cristina-kirchner-hace-cosas-dentro-ley-consecuencias_0_2yWEhioDX9.html",
     "verdict": "uncertain",
-    "id": 1,
+    "image": null,
+    "id": 2,
     "agents": {
       "logic": "Noticia de Clarín - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -26,26 +48,7 @@
     "date": "2025-06-25",
     "url": "https://www.clarin.com/politica/alexia-abaigar-funcionaria-axel-kicillof-detenida-tirar-caca-casa-jose-luis-espert_0_3CNNm6v3G3.html",
     "verdict": "uncertain",
-    "id": 2,
-    "agents": {
-      "logic": "Noticia de Clarín - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Clarín",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Casación convocó a una audiencia el 7 de julio para definir si Cristina puede recibir visitas sin restricciones",
-    "summary": "Así lo resolvió la Sala IV integrada por los jueces Mariano Borinsky, Gustavo Hornos y Diego Barroetaveña.La defensa de la ex presidenta había solicitado que no se impongan límites a las visitas que pueda recibir durante su arresto domiciliaria.",
-    "source": "Clarín",
-    "date": "2025-06-25",
-    "url": "https://www.clarin.com/politica/casacion-convoco-audiencia-7-julio-definir-cristina-puede-recibir-visitas-restricciones_0_nX3mn5NDx7.html",
-    "verdict": "uncertain",
+    "image": null,
     "id": 3,
     "agents": {
       "logic": "Noticia de Clarín - Fuente verificada",
@@ -60,13 +63,77 @@
     }
   },
   {
+    "title": "Casación fija audiencia para definir sobre las visitas a Cristina Kirchner durante su prisión domiciliaria",
+    "summary": "La defensa cuestiona la decisión del Tribunal de limitar el acceso al domicilio sólo para su familia, abogados y médicos. El presidente de la Sala IV de casación Mariano Borinsky fijó audiencia para el 7 de julio para que las partes informen.",
+    "source": "Ámbito",
+    "date": "2025-06-25",
+    "url": "https://www.ambito.com/politica/casacion-fija-audiencia-definir-las-visitas-cristina-kirchner-su-prision-domiciliaria-n6160389",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 4,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Causa $LIBRA: diputados reactivan la comisión que investiga el rol del Ejecutivo",
+    "summary": "Periodistas, informáticos acudieron a la comisión investigadora, que continúa sin autoridades.",
+    "source": "Ámbito",
+    "date": "2025-06-25",
+    "url": "https://www.ambito.com/politica/causa-libra-diputados-reactivan-la-comision-que-investiga-el-rol-del-ejecutivo-n6160387",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 5,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Tensión en el Congreso: Lilia Lemoine filmó a jubilados que asistían a la marcha y fue increpada",
+    "summary": "La diputada de La Libertad Avanza fue escoltada por la Policía Federal tras un fuerte cruce con manifestantes que reclamaban mejoras en las jubilaciones.",
+    "source": "Ámbito",
+    "date": "2025-06-25",
+    "url": "https://www.ambito.com/politica/tension-el-congreso-lilia-lemoine-filmo-jubilados-que-asistian-la-marcha-y-fue-increpada-n6160379",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 6,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
     "title": "Jubilados en lucha: una nueva marcha al Congreso",
     "summary": "| En medio de un fuerte operativo de seguridad",
     "source": "Página/12",
     "date": "2025-06-25",
     "url": "https://www.pagina12.com.ar/837150-jubilados-en-lucha-una-nueva-marcha-al-congreso",
     "verdict": "uncertain",
-    "id": 4,
+    "image": null,
+    "id": 7,
     "agents": {
       "logic": "Noticia de Página/12 - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -86,7 +153,8 @@
     "date": "2025-06-25",
     "url": "https://www.pagina12.com.ar/837030-javier-milei-con-un-ojo-en-las-marchas-y-otro-en-el-criptoga",
     "verdict": "uncertain",
-    "id": 5,
+    "image": null,
+    "id": 8,
     "agents": {
       "logic": "Noticia de Página/12 - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -106,7 +174,8 @@
     "date": "2025-06-25",
     "url": "https://www.pagina12.com.ar/837113-patricia-bullrich-despliega-un-desmedido-operativo-policial-",
     "verdict": "uncertain",
-    "id": 6,
+    "image": null,
+    "id": 9,
     "agents": {
       "logic": "Noticia de Página/12 - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -126,7 +195,8 @@
     "date": "2025-06-25",
     "url": "https://tn.com.ar/politica/politica/2025/06/25/diputados-y-senadores-de-union-por-la-patria-le-pidieron-a-la-justicia-visitar-a-cfk-sin-restricciones/",
     "verdict": "uncertain",
-    "id": 7,
+    "image": null,
+    "id": 10,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -146,7 +216,8 @@
     "date": "2025-06-25",
     "url": "https://tn.com.ar/politica/politica/2025/06/25/la-justicia-fijo-una-audiencia-para-definir-las-restricciones-de-las-visitas-a-cristina-kirchner/",
     "verdict": "uncertain",
-    "id": 8,
+    "image": null,
+    "id": 11,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -166,7 +237,8 @@
     "date": "2025-06-25",
     "url": "https://tn.com.ar/politica/politica/2025/06/25/el-gobierno-critico-la-media-sancion-de-la-reeleccion-indefinida-de-legisladores-en-pba/",
     "verdict": "uncertain",
-    "id": 9,
+    "image": null,
+    "id": 12,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
@@ -180,79 +252,20 @@
     }
   },
   {
-    "title": "Cuál es el origen científico de la risa y qué efectos terapéuticos puede tener",
-    "summary": "Más allá de su dimensión emocional y social, es un pilar fundamental en nuestra salud y en el bienestar social; conocé todos los detalles en la nota",
+    "title": "Hasta cuándo durará la ola de calor que azota Nueva York y gran parte de EE.UU.",
+    "summary": "Descubre hasta cuándo se espera que continúe la ola de calor que afecta a Nueva York y gran parte de EE.UU. Este es el primer período de calor extremo que enfrenta el país desde el viernes 20 de junio",
     "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/lifestyle/en-las-redes/cual-es-el-origen-cientifico-de-la-risa-nid25062025/",
+    "url": "https://www.lanacion.com.ar/estados-unidos/nueva-york/hasta-cuando-durara-la-ola-de-calor-que-azota-nueva-york-y-gran-parte-de-eeuu-nid25062025/",
     "verdict": "uncertain",
-    "id": 10,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Murió Liam Byrne, campeón británico de salto base, tras lanzarse desde una montaña en los Alpes suizos",
-    "summary": "El joven de 24 años sufrió un desperfecto en su vuelo a más de 2000 metros de altura; su deseo era “volar como un pájaro”",
-    "source": "La Nación",
-    "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/deportes/murio-liam-byrne-campeon-britanico-de-salto-base-tras-lanzarse-desde-una-montana-en-los-alpes-suizos-nid24062025/",
-    "verdict": "uncertain",
-    "id": 11,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Quién quedó en el tercer puesto en Gran Hermano 2025",
-    "summary": "Se terminó una nueva edición del reality más famoso del país y en una final cargada de emoción se conoció quién quedó en el tercer puesto",
-    "source": "La Nación",
-    "date": "2025-06-25",
-    "url": "https://www.lanacion.com.ar/espectaculos/quien-quedo-en-el-tercer-puesto-en-gran-hermano-2025-nid24062025/",
-    "verdict": "uncertain",
-    "id": 12,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-25",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Cuántos dólares tienen los argentinos en el colchón",
-    "summary": "El organismo oficial de estadística difundió este miércoles la estimación del monto por fuera del sistema financiero correspondiente al primer trimestre del año.",
-    "source": "Cronista",
-    "date": "2025-06-25",
-    "url": "https://www.cronista.com/finanzas-mercados/cuantos-dolares-tienen-los-argentinos-en-el-colchon/",
-    "verdict": "uncertain",
+    "image": null,
     "id": 13,
     "agents": {
-      "logic": "Noticia de Cronista - Fuente verificada",
+      "logic": "Noticia de La Nación - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: Cronista",
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-25",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
@@ -260,19 +273,20 @@
     }
   },
   {
-    "title": "Dolor en el fútbol: murió un reconocido futbolista del ascenso",
-    "summary": "Confirmaron el fallecimiento del jugador, que también había integrado parte del plantel de Boca e Independiente. Tenía 18 años.",
-    "source": "Cronista",
+    "title": "Dólar hoy, dólar blue hoy: a cuánto cotiza este miércoles 25 de junio",
+    "summary": "La divisa paralela que se comercializa en el mercado informal cotizó a $1210 para la venta; en tanto, el dólar oficial operó a $1205 para la misma transacción",
+    "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.cronista.com/informacion-gral/murio-un-reconocido-futbolista-del-ascenso/",
+    "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-dolar-blue-hoy-a-cuanto-cotiza-este-miercoles-25-de-junio-nid25062025/",
     "verdict": "uncertain",
+    "image": null,
     "id": 14,
     "agents": {
-      "logic": "Noticia de Cronista - Fuente verificada",
+      "logic": "Noticia de La Nación - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: Cronista",
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-25",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
@@ -280,19 +294,230 @@
     }
   },
   {
-    "title": "La filosofía de Elon Musk para triunfar en la vida: \"No puede ser solo resolver un problema miserable tras otro\"",
-    "summary": "El fundador de SpaceX reveló la filosofía que guía todos sus proyectos. Qué dijo sobre la humanidad, la inteligencia artificial y el futuro fuera de la Tierra.",
-    "source": "Cronista",
+    "title": "La OTAN le dio casi todos los gustos a Trump y volvió a encarrilar su relación en una cumbre más que amistosa",
+    "summary": "Los socios de EE.UU. trataron con guantes de seda al magnate durante la cumbre de la alianza militar en La Haya y aceptaron subir el presupuesto en defensa y seguridad al 5%",
+    "source": "La Nación",
     "date": "2025-06-25",
-    "url": "https://www.cronista.com/informacion-gral/la-filosofia-de-elon-musk-para-triunfar-en-la-vida-no-puede-ser-solo-resolver-un-problema-miserable-tras-otro/",
+    "url": "https://www.lanacion.com.ar/el-mundo/la-otan-le-dio-casi-todos-los-gustos-a-trump-y-volvio-a-encarrilar-su-relacion-en-una-cumbre-mas-que-nid25062025/",
     "verdict": "uncertain",
+    "image": null,
     "id": 15,
     "agents": {
-      "logic": "Noticia de Cronista - Fuente verificada",
+      "logic": "Noticia de La Nación - Fuente verificada",
       "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: Cronista",
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "El plan de Argentina para aumentar el comercio a través de la Hidrovía",
+    "summary": "Noticia de iProfesional",
+    "source": "iProfesional",
+    "date": "2025-06-25",
+    "url": "https://www.iprofesional.com/politica/comex/431436-plan-gobierno-javier-milei-para-multiplicar-comercio-hidrovia-parana-paraguay",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 16,
+    "agents": {
+      "logic": "Noticia de iProfesional - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: iProfesional",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Detuvieron a una funcionaria del Ministerio de la Mujer bonaerense por el ataque con excremento a la casa de Espert",
+    "summary": "Noticia de iProfesional",
+    "source": "iProfesional",
+    "date": "2025-06-25",
+    "url": "https://www.iprofesional.com/politica/politica/431438-detuvieron-a-militante-kirchnerista-por-ataque-con-excremento-a-casa-jose-luis-espert",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 17,
+    "agents": {
+      "logic": "Noticia de iProfesional - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: iProfesional",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "El Gobierno eliminó el \"feriado\" por el Día del Empleado Público: la dura respuesta de ATE",
+    "summary": "Noticia de iProfesional",
+    "source": "iProfesional",
+    "date": "2025-06-25",
+    "url": "https://www.iprofesional.com/politica/politica/431433-por-que-el-gobierno-elimino-el-feriado-por-el-dia-del-empleado-publico",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 18,
+    "agents": {
+      "logic": "Noticia de iProfesional - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: iProfesional",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Reelección indefinida de legisladores en PBA |",
+    "summary": "Noticia de Chequeado",
+    "source": "Chequeado",
+    "date": "2025-06-25",
+    "url": "https://chequeado.com/el-explicador/reeleccion-indefinida-en-la-provincia-de-buenos-aires-las-5-claves-del-proyecto-de-ley-que-aprobo-el-senado-bonaerense/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 19,
+    "agents": {
+      "logic": "Noticia de Chequeado - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Chequeado",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Elecciones en Santa Fe |",
+    "summary": "Noticia de Chequeado",
+    "source": "Chequeado",
+    "date": "2025-06-25",
+    "url": "https://chequeado.com/el-explicador/elecciones-2025-en-santa-fe-que-se-vota-el-domingo-29-de-junio/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 20,
+    "agents": {
+      "logic": "Noticia de Chequeado - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Chequeado",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Fijan fecha de audiencia para definir quién podrá visitar a Cristina en su casa de Constitución",
+    "summary": "Noticia de Minuto Uno",
+    "source": "Minuto Uno",
+    "date": "2025-06-25",
+    "url": "https://www.minutouno.com/politica/fijan-fecha-audiencia-definir-quien-podra-visitar-cristina-kirchner-su-casa-constitucion-n6160392",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 21,
+    "agents": {
+      "logic": "Noticia de Minuto Uno - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Minuto Uno",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Provocadora: Lilia Lemoine filmó a jubilados en Congreso y tuvo que ser retirada por la Policía",
+    "summary": "Noticia de Minuto Uno",
+    "source": "Minuto Uno",
+    "date": "2025-06-25",
+    "url": "https://www.minutouno.com/politica/provocadora-lilia-lemoine-filmo-jubilados-congreso-y-tuvo-que-ser-retirada-la-policia-n6160370",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 22,
+    "agents": {
+      "logic": "Noticia de Minuto Uno - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Minuto Uno",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Refuerzan la seguridad de Milei en sus viajes al exterior por la tensión con Irán",
+    "summary": "Noticia de Minuto Uno",
+    "source": "Minuto Uno",
+    "date": "2025-06-25",
+    "url": "https://www.minutouno.com/politica/refuerzan-la-seguridad-javier-milei-sus-viajes-al-exterior-la-tension-iran-n6160336",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 23,
+    "agents": {
+      "logic": "Noticia de Minuto Uno - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Minuto Uno",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Milei defendió su tuit contra Ian Moche y atacó a un periodista de El Destape",
+    "summary": "Noticia de El Destape Web",
+    "source": "El Destape Web",
+    "date": "2025-06-25",
+    "url": "https://www.eldestapeweb.com/politica/politica/gobierno/milei-defendio-su-tuit-contra-el-nino-autista-ian-moche-y-ataco-a-un-periodista-de-el-destape-2025625164745",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 24,
+    "agents": {
+      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: El Destape Web",
+        "📅 Fecha: 2025-06-25",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Apuntan contra De Loredo por un video fake de Llaryora: \"Gravedad institucional\"",
+    "summary": "Noticia de El Destape Web",
+    "source": "El Destape Web",
+    "date": "2025-06-25",
+    "url": "https://www.eldestapeweb.com/politica/politica/fake-news/el-gobierno-de-cordoba-apunta-contra-de-loredo-por-difundir-un-video-fake-de-llaryora-gravedad-institucional--2025625154925",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 25,
+    "agents": {
+      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "context": "Publicada el 2025-06-25 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: El Destape Web",
         "📅 Fecha: 2025-06-25",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"

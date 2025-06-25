@@ -1,102 +1,72 @@
 <template>
-  <div class="bg-white rounded-2xl shadow-lg p-6 hover:bg-gray-50 transition-colors duration-200">
-    <!-- News Header -->
-    <div class="mb-4">
-      <div class="flex items-center justify-between mb-2">
-        <MediaLogo :source="article.source" />
-        <button @click.stop="openExternalLink" class="text-gray-400 hover:text-blue-600 transition-colors">
-          <ExternalLink class="h-5 w-5" />
-        </button>
+  <article class="bg-white border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
+    <!-- News Image Placeholder -->
+    <div class="relative">
+      <div class="w-full h-48 bg-gray-100 border-b border-gray-200 flex items-center justify-center">
+        <div class="text-center text-gray-400">
+          <svg class="w-16 h-16 mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd" />
+          </svg>
+          <p class="text-sm font-medium">Imagen no disponible</p>
+        </div>
       </div>
       
-      <h2 class="text-xl font-semibold text-gray-900 mb-3 leading-tight cursor-pointer hover:text-blue-600" @click="goToDetail">
+      <!-- Media Logo Overlay -->
+      <div class="absolute top-3 left-3">
+        <MediaLogo :source="article.source" />
+      </div>
+      
+      <!-- External Link Button -->
+      <div class="absolute top-3 right-3">
+        <button 
+          @click.stop="openExternalLink" 
+          class="bg-white bg-opacity-90 hover:bg-opacity-100 p-2 rounded-full shadow-sm transition-all duration-200"
+          title="Ir al artículo original"
+        >
+          <ExternalLink class="h-4 w-4 text-gray-700" />
+        </button>
+      </div>
+    </div>
+
+    <!-- News Content -->
+    <div class="p-5">
+      <!-- Publication Date -->
+      <div class="text-xs text-gray-500 mb-2 font-serif">
+        {{ formatDate(article.date) }}
+      </div>
+      
+      <!-- Headline -->
+      <h2 
+        class="text-lg font-bold text-gray-900 mb-3 leading-tight cursor-pointer hover:text-red-800 transition-colors font-serif"
+        @click="goToDetail"
+      >
         {{ article.title }}
       </h2>
       
-      <p class="text-gray-700 mb-4 line-clamp-2">
+      <!-- Summary -->
+      <p class="text-gray-700 text-sm leading-relaxed mb-4 line-clamp-3 font-serif">
         {{ article.summary }}
       </p>
-    </div>
-
-    <!-- Verdict Badge -->
-    <div class="mb-4">
-      <span 
-        :class="verdictClasses"
-        class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium"
-      >
-        <span :class="verdictIcon" class="w-2 h-2 rounded-full mr-2"></span>
-        {{ verdictText }}
-      </span>
-    </div>
-
-    <!-- Agent Tags Preview -->
-    <div class="mb-4 flex flex-wrap gap-2">
-      <AgentTag
-        v-for="(analysis, agentType) in article.agents"
-        :key="agentType"
-        :agent-type="agentType"
-        :analysis="analysis"
-        :visible="visibleAgents[agentType]"
-      />
-    </div>
-
-    <!-- Analysis Mode Toggle -->
-    <div class="flex gap-2 mb-4">
-      <button
-        @click="goToDetail"
-        class="bg-blue-600 text-white px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm hover:bg-blue-700"
-      >
-        Ver Análisis Completo
-      </button>
-      <button
-        @click="setAnalysisMode('sequential')"
-        :class="analysisMode === 'sequential' ? 'bg-green-600 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'"
-        class="px-3 py-2 rounded-lg transition-colors duration-200 font-medium text-sm"
-      >
-        Vista Proceso IA
-      </button>
-    </div>
-
-    <!-- Expand Button -->
-    <button
-      @click="toggleExpanded"
-      class="w-full py-2 px-4 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-lg transition-colors duration-200 font-medium"
-    >
-      {{ isExpanded ? 'Ocultar Análisis' : 'Mostrar Análisis' }}
-      <svg 
-        :class="{ 'rotate-180': isExpanded }"
-        class="inline-block ml-2 w-5 h-5 transition-transform duration-200" 
-        fill="none" 
-        stroke="currentColor" 
-        viewBox="0 0 24 24"
-      >
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-      </svg>
-    </button>
-
-    <!-- Expanded Analysis -->
-    <div v-if="isExpanded" class="mt-4">
-      <!-- Standard Analysis View -->
-      <div v-if="analysisMode === 'standard'" class="space-y-4">
-        <AgentAnalysis
-          v-for="(analysis, agentType) in article.agents"
-          :key="agentType"
-          :agent-type="agentType"
-          :analysis="analysis"
-          :visible="visibleAgents[agentType]"
-        />
-      </div>
-
-      <!-- Sequential Analysis View -->
-      <div v-else-if="analysisMode === 'sequential'">
-        <SequentialAnalysis :article="article" />
+      
+      <!-- Action Button -->
+      <div class="flex justify-between items-center pt-3 border-t border-gray-100">
+        <button
+          @click="goToDetail"
+          class="text-red-800 hover:text-red-900 font-medium text-sm transition-colors font-serif"
+        >
+          Leer artículo completo →
+        </button>
+        
+        <!-- Source Credit -->
+        <span class="text-xs text-gray-500 font-serif">
+          {{ article.source }}
+        </span>
       </div>
     </div>
-  </div>
+  </article>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
 import { ExternalLink } from 'lucide-vue-next'
 
 const props = defineProps({
@@ -104,87 +74,43 @@ const props = defineProps({
     type: Object,
     required: true
   },
-  visibleAgents: {
-    type: Object,
-    required: true
+  newspaperStyle: {
+    type: Boolean,
+    default: false
   }
 })
 
-const isExpanded = ref(false)
-const analysisMode = ref('standard')
-
-const toggleExpanded = () => {
-  isExpanded.value = !isExpanded.value
-}
-
-const setAnalysisMode = (mode) => {
-  analysisMode.value = mode
-}
-
-// Navigation functions
 const goToDetail = () => {
-  navigateTo(`/noticia/${props.article.id}`)
+  if (props.article.id) {
+    navigateTo(`/noticia/${props.article.id}`)
+  }
 }
 
 const openExternalLink = () => {
-  window.open(props.article.url, '_blank')
+  if (props.article.url) {
+    window.open(props.article.url, '_blank')
+  }
 }
 
-// Verdict styling
-const verdictClasses = computed(() => {
-  switch (props.article.verdict) {
-    case 'true':
-      return 'bg-green-100 text-green-800'
-    case 'false':
-      return 'bg-red-100 text-red-800'
-    case 'uncertain':
-      return 'bg-yellow-100 text-yellow-800'
-    default:
-      return 'bg-gray-100 text-gray-800'
-  }
-})
-
-const verdictIcon = computed(() => {
-  switch (props.article.verdict) {
-    case 'true':
-      return 'bg-green-500'
-    case 'false':
-      return 'bg-red-500'
-    case 'uncertain':
-      return 'bg-yellow-500'
-    default:
-      return 'bg-gray-400'
-  }
-})
-
-const verdictText = computed(() => {
-  switch (props.article.verdict) {
-    case 'true':
-      return 'Verificado'
-    case 'false':
-      return 'Falso'
-    case 'uncertain':
-      return 'Incierto'
-    default:
-      return 'Desconocido'
-  }
-})
-
-// Date formatting
 const formatDate = (dateString) => {
-  const date = new Date(dateString)
-  return date.toLocaleDateString('es-ES', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  })
+  try {
+    const date = new Date(dateString)
+    return date.toLocaleDateString('es-AR', {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long', 
+      day: 'numeric'
+    }).replace(/^\w/, (c) => c.toUpperCase())
+  } catch (e) {
+    return dateString
+  }
 }
 </script>
 
 <style scoped>
-.line-clamp-2 {
+.line-clamp-3 {
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
