@@ -5,6 +5,8 @@ import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
 import { escapeHtml } from 'file:///home/runner/workspace/node_modules/@vue/shared/dist/shared.cjs.js';
+import { spawn } from 'node:child_process';
+import { existsSync, readFileSync } from 'node:fs';
 import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///home/runner/workspace/node_modules/vue-bundle-renderer/dist/runtime.mjs';
 import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file:///home/runner/workspace/node_modules/ufo/dist/index.mjs';
 import { renderToString } from 'file:///home/runner/workspace/node_modules/vue/server-renderer/index.mjs';
@@ -1771,96 +1773,79 @@ const styles$1 = /*#__PURE__*/Object.freeze({
 
 const live_get = defineEventHandler(async (event) => {
   try {
-    console.log("Obteniendo noticias en vivo...");
-    const liveNews = [
-      {
-        id: 1,
-        title: "Gobierno anuncia nueva pol\xEDtica econ\xF3mica para el segundo semestre",
-        source: "La Naci\xF3n",
-        date: (/* @__PURE__ */ new Date()).toISOString().split("T")[0],
-        summary: "El ministro de Econom\xEDa present\xF3 las medidas que buscan controlar la inflaci\xF3n y fomentar el crecimiento econ\xF3mico en los pr\xF3ximos meses.",
-        verdict: "uncertain",
-        url: "https://www.lanacion.com.ar/economia/",
-        agents: {
-          logic: "Informaci\xF3n oficial del gobierno - Requiere an\xE1lisis de implementaci\xF3n",
-          context: "Medidas econ\xF3micas en contexto de alta inflaci\xF3n",
-          expert: "Pol\xEDticas monetarias y fiscales requieren evaluaci\xF3n t\xE9cnica",
-          synth: [
-            "\u{1F4CA} Tipo: Pol\xEDtica econ\xF3mica",
-            "\u{1F3DB}\uFE0F Fuente: Ministerio de Econom\xEDa",
-            "\u{1F4C5} Implementaci\xF3n: Segundo semestre 2025",
-            "\u{1F3AF} Objetivo: Control inflacionario"
-          ]
+    console.log("Obteniendo noticias reales de medios argentinos...");
+    const scraperPath = join(process.cwd(), "scrapers", "simple_rss_scraper.py");
+    const dataPath = join(process.cwd(), "data", "real_news.json");
+    return new Promise((resolve, reject) => {
+      const pythonProcess = spawn("python3", [scraperPath], {
+        cwd: process.cwd(),
+        stdio: ["ignore", "pipe", "pipe"]
+      });
+      let output = "";
+      let errorOutput = "";
+      pythonProcess.stdout.on("data", (data) => {
+        output += data.toString();
+      });
+      pythonProcess.stderr.on("data", (data) => {
+        errorOutput += data.toString();
+      });
+      pythonProcess.on("close", (code) => {
+        console.log("Scraper terminado con c\xF3digo:", code);
+        console.log("Output:", output);
+        if (errorOutput) {
+          console.log("Errores:", errorOutput);
         }
-      },
-      {
-        id: 2,
-        title: "R\xE9cord de exportaciones agr\xEDcolas argentinas en junio",
-        source: "\xC1mbito",
-        date: (/* @__PURE__ */ new Date()).toISOString().split("T")[0],
-        summary: "Las exportaciones de granos y carnes alcanzaron cifras hist\xF3ricas, impulsadas por la demanda internacional y los precios favorables.",
-        verdict: "true",
-        url: "https://www.ambito.com/economia/",
-        agents: {
-          logic: "Datos verificables del INDEC y c\xE1maras sectoriales",
-          context: "Tendencia positiva en commodities agr\xEDcolas",
-          expert: "Cifras consistentes con reportes del sector agropecuario",
-          synth: [
-            "\u{1F4C8} R\xE9cord: Exportaciones agr\xEDcolas",
-            "\u{1F33E} Productos: Granos y carnes",
-            "\u{1F4B0} Impacto: Divisas para el pa\xEDs",
-            "\u{1F30D} Demanda: Mercados internacionales"
-          ]
+        if (existsSync(dataPath)) {
+          try {
+            const newsData = JSON.parse(readFileSync(dataPath, "utf-8"));
+            resolve({
+              success: true,
+              data: newsData,
+              timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+              count: newsData.length,
+              source: "Noticias reales de medios argentinos",
+              scraperOutput: output.split("\n").slice(-5)
+              // Últimas 5 líneas del output
+            });
+          } catch (parseError) {
+            console.error("Error parseando JSON:", parseError);
+            reject({
+              success: false,
+              error: "Error parseando datos de noticias",
+              message: parseError.message,
+              timestamp: (/* @__PURE__ */ new Date()).toISOString()
+            });
+          }
+        } else {
+          reject({
+            success: false,
+            error: "El scraper no gener\xF3 archivo de datos",
+            message: "No se pudo crear el archivo de noticias reales",
+            timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+            scraperOutput: output,
+            scraperError: errorOutput
+          });
         }
-      },
-      {
-        id: 3,
-        title: "Nuevo sistema de transporte p\xFAblico en el AMBA",
-        source: "Clar\xEDn",
-        date: (/* @__PURE__ */ new Date()).toISOString().split("T")[0],
-        summary: "Se implementar\xE1 un sistema integrado de transporte que conectar\xE1 todos los medios de movilidad del \xE1rea metropolitana.",
-        verdict: "uncertain",
-        url: "https://www.clarin.com/ciudades/",
-        agents: {
-          logic: "Anuncio oficial pero falta cronograma detallado",
-          context: "Mejoras en transporte p\xFAblico son necesarias en AMBA",
-          expert: "Proyecto ambicioso que requiere inversi\xF3n significativa",
-          synth: [
-            "\u{1F68C} Sistema: Transporte integrado",
-            "\u{1F4CD} \xC1rea: AMBA",
-            "\u{1F517} Conexi\xF3n: Todos los medios",
-            "\u23F0 Estado: En planificaci\xF3n"
-          ]
-        }
-      },
-      {
-        id: 4,
-        title: "Argentina clasifica a cuartos de final en Copa Am\xE9rica",
-        source: "Infobae",
-        date: (/* @__PURE__ */ new Date()).toISOString().split("T")[0],
-        summary: "La selecci\xF3n nacional venci\xF3 2-1 a su rival y se asegur\xF3 un lugar en la siguiente fase del torneo continental.",
-        verdict: "true",
-        url: "https://www.infobae.com/deportes/",
-        agents: {
-          logic: "Resultado oficial del partido verificado por CONMEBOL",
-          context: "Argentina tiene historial exitoso en Copa Am\xE9rica",
-          expert: "Rendimiento del equipo muestra mejora constante",
-          synth: [
-            "\u26BD Resultado: Victoria 2-1",
-            "\u{1F3C6} Torneo: Copa Am\xE9rica",
-            "\u{1F3AF} Fase: Cuartos de final",
-            "\u{1F1E6}\u{1F1F7} Selecci\xF3n: Argentina"
-          ]
-        }
-      }
-    ];
-    return {
-      success: true,
-      data: liveNews,
-      timestamp: (/* @__PURE__ */ new Date()).toISOString(),
-      count: liveNews.length,
-      source: "RSS Feeds Argentinos"
-    };
+      });
+      pythonProcess.on("error", (error) => {
+        console.error("Error ejecutando scraper:", error);
+        reject({
+          success: false,
+          error: "Error ejecutando scraper de noticias",
+          message: error.message,
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+      });
+      setTimeout(() => {
+        pythonProcess.kill();
+        reject({
+          success: false,
+          error: "Timeout del scraper",
+          message: "El scraper tard\xF3 demasiado tiempo",
+          timestamp: (/* @__PURE__ */ new Date()).toISOString()
+        });
+      }, 45e3);
+    });
   } catch (error) {
     console.error("Error obteniendo noticias:", error);
     return {
