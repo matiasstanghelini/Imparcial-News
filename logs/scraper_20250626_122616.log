@@ -1,0 +1,11 @@
+=== Inicio de ejecución: 2025-06-26 12:26:16.265923 ===
+
+
+=== ERROR ===
+Traceback (most recent call last):
+  File "C:\Users\MSTANGHELINI\Desktop\Proyectos Personales\Imparcial-News\scrapers\run_scraper.py", line 48, in main
+    from combined_scraper import main as scraper_main
+  File "C:\Users\MSTANGHELINI\Desktop\Proyectos Personales\Imparcial-News\scrapers\combined_scraper.py", line 12, in <module>
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+AttributeError: 'Tee' object has no attribute 'buffer'
+

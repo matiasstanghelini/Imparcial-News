@@ -7,9 +7,10 @@
         <!-- Categories Menu -->
         <div class="relative">
           <button 
-            @click="toggleCategoriesMenu"
+            @click="$emit('toggle-sidebar')"
             class="p-2 rounded-lg transition-colors"
             :class="isDarkMode ? 'bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-700 hover:text-gray-900'"
+            aria-label="Abrir menú de categorías"
           >
             <Menu class="h-5 w-5" />
           </button>

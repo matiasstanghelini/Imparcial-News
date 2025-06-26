@@ -37,6 +37,9 @@ const props = defineProps({
 const isDarkMode = inject('isDarkMode')
 
 const goToDetail = () => {
-  navigateTo(`/noticia/${props.article.id}`)
+  // Usar la nueva ruta con categoría: /noticias/[categoria]/[id]-[slug]
+  const category = props.article.category || 'general'
+  const slug = props.article.slug || props.article.title.toLowerCase().replace(/[^\w\s]/gi, '').replace(/\s+/g, '-')
+  navigateTo(`/noticias/${category}/${props.article.id}-${slug}`)
 }
 </script>
