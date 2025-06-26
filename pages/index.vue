@@ -43,13 +43,10 @@
       
       <!-- Center Title -->
       <div class="text-center">
-        <h1 class="text-4xl font-bold mb-1 tracking-tight" :class="isDarkMode ? 'text-white' : 'text-gray-900'">
+        <h1 class="text-4xl font-bold tracking-tight" :class="isDarkMode ? 'text-white' : 'text-gray-900'">
           Imparcial
         </h1>
-        <div class="w-16 h-0.5 bg-blue-600 mx-auto mb-2"></div>
-        <p class="text-base font-medium" :class="isDarkMode ? 'text-gray-300' : 'text-gray-600'">
-          news powered by AI
-        </p>
+        <div class="w-16 h-0.5 bg-blue-600 mx-auto mt-2"></div>
       </div>
     </header>
 

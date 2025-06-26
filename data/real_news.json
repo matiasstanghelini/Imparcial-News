@@ -189,69 +189,6 @@
     }
   },
   {
-    "title": "Ola polar en Buenos Aires, en vivo: frío y últimas noticias este jueves 26 de junio",
-    "summary": "Las previsiones meteorológicas indican temperaturas aún más bajas y un ambiente más ventoso tras el ingreso de un nuevo frente frío; pronóstico extendido",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/sociedad/ola-polar-en-buenos-aires-en-vivo-frio-y-ultimas-noticias-este-jueves-26-de-junio-nid26062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 10,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Germán Martínez desafió a la Justicia por las visitas a Cristina y recordó la foto de los libertarios con Astiz",
-    "summary": "El jefe de la bancada de UP en Diputados retomó la línea de la presentación que hicieron el miércoles para avisar que no piensan pedir permiso para ir a ver a la expresidenta",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/politica/german-martinez-desafio-a-la-justicia-por-las-visitas-a-cristina-y-recordo-la-foto-de-los-nid26062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 11,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Su nivel de inglés fue una traba cuando estudió en Europa y creó un club para hablar idiomas con extranjeros",
-    "summary": "Una ronda de mate es el ritual argentino que nacionales y extranjeros comparten en un hostel de Recoleta y en un bar de Palermo para tender puentes interculturales y, por supuesto, hacer nuevos amigos",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/que-sale/su-nivel-de-ingles-fue-una-traba-cuando-estudio-en-europa-y-creo-un-club-para-hablar-idiomas-en-nid25062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 12,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
     "title": "El Gobierno cruzó a los gremios y defendió la eliminación del asueto por el día del trabajador público: \"Iba a costar $1",
     "summary": "Noticia de TN",
     "source": "TN",
@@ -259,7 +196,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/26/los-gremios-desafian-al-gobierno-y-les-pidieron-a-los-estatales-que-se-tomen-el-dia-del-empleado-publico/",
     "verdict": "uncertain",
     "image": null,
-    "id": 13,
+    "id": 10,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -280,7 +217,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/26/el-gobierno-acelera-el-acuerdo-con-el-pro-en-la-provincia-pero-tensiona-el-vinculo-con-los-macri-en-caba/",
     "verdict": "uncertain",
     "image": null,
-    "id": 14,
+    "id": 11,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -301,13 +238,76 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/26/el-pj-prepara-las-listas-en-pba-entre-la-tension-interna-y-los-dialogos-cruzados-de-kicillof-con-la-campora/",
     "verdict": "uncertain",
     "image": null,
-    "id": 15,
+    "id": 12,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: TN",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Germán Martínez desafió a la Justicia por las visitas a Cristina y recordó la foto de los libertarios con Astiz",
+    "summary": "El jefe de la bancada de UP en Diputados retomó la línea de la presentación que hicieron el miércoles para avisar que no piensan pedir permiso para ir a ver a la expresidenta",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/politica/german-martinez-desafio-a-la-justicia-por-las-visitas-a-cristina-y-recordo-la-foto-de-los-nid26062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 13,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Franco Colapinto y Alpine en el Gran Premio de Austria: apuesta total a la prueba de clasificación",
+    "summary": "El argentino describió un circuito que le ha resultado favorable; Pierre Gasly comparó el A525 con los autos más poderosos",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/deportes/automovilismo/franco-colapinto-y-alpine-en-el-gran-premio-de-austria-apuesta-total-a-la-prueba-de-clasificacion-nid26062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 14,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Cuándo es Bodegonmanía, el festival de 35 bodegones con un plato de pastas para dos personas a solo $13.000",
+    "summary": "Del 24 al 26 de junio, restaurantes clásicos porteños y del Gran Buenos Aires proponen un menú de pastas para compartir a precio único",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/que-sale/cuando-es-bodegonmania-el-festival-de-35-bodegones-con-un-plato-de-pastas-para-dos-personas-a-solo-nid07062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 15,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-26",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
