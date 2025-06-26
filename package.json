@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi start",
+    "generate": "nuxi generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,5 +17,8 @@
     "@nuxtjs/tailwindcss": "^7.0.0-beta.0",
     "lucide-vue-next": "^0.513.0",
     "nuxt": "^3.17.5"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^2.5.0"
   }
 }
