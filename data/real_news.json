@@ -1,5 +1,26 @@
 [
   {
+    "title": "El listado de Cristina Kirchner para que la visiten en la domiciliaria: unos 15 nombres entre abogados, contadores y fam",
+    "summary": "Son los datos que presentó en la Justicia y el único habilitado por ahora para que ingresen personas sin autorización. En paralelo, los K presionan para ingresar sin restricciones.",
+    "source": "Clarín",
+    "date": "2025-06-26",
+    "url": "https://www.clarin.com/politica/listado-cristina-kirchner-visiten-domiciliaria-15-nombres-abogados-contadores-familiares_0_rlyyz8hfq0.html",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 1,
+    "agents": {
+      "logic": "Noticia de Clarín - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Clarín",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
     "title": "Ministros, funcionarios y empresario despidieron a la embajadora británica en un acto en el Teatro Colón",
     "summary": "Kirsty Hayes deja su cargo.Estuvieron Sturzenegger, Cuneo Libarona y representantes de las Fuerzas Armadas, entre otros.",
     "source": "Clarín",
@@ -7,7 +28,7 @@
     "url": "https://www.clarin.com/politica/ministros-funcionarios-empresario-despidieron-embajadora-britanica-acto-teatro-colon_0_zL72CycryK.html",
     "verdict": "uncertain",
     "image": null,
-    "id": 1,
+    "id": 2,
     "agents": {
       "logic": "Noticia de Clarín - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -26,27 +47,6 @@
     "source": "Clarín",
     "date": "2025-06-26",
     "url": "https://www.clarin.com/politica/nueva-encuesta-midio-interna-peronista-kicillof-traiciono-cristina-deja-crecer_0_lSuhKuKuH1.html",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 2,
-    "agents": {
-      "logic": "Noticia de Clarín - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Clarín",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Elecciones 2025 en Argentina, EN VIVO: el PJ bonaerense convocó al massismo, Patria Grande y el partido de Moreno",
-    "summary": "La reunión de la plana mayor del peronismo será este viernes 27 de junio al mediodía en la sede nacional de la calle Matheu.Seguí todas las novedades sobre las elecciones 2025 en Argentina en la cobertura minuto a minuto de Clarín.",
-    "source": "Clarín",
-    "date": "2025-06-26",
-    "url": "https://www.clarin.com/politica/elecciones-2025-argentina-vivo-pj-bonaerense-convoco-massismo-patria-grande-partido-moreno_0_oPJ3Ca3RLg.html",
     "verdict": "uncertain",
     "image": null,
     "id": 3,
@@ -105,11 +105,11 @@
     }
   },
   {
-    "title": "Balanza en rojo para los dólares",
-    "summary": "| La deuda externa alcanzó los 278 mil millones de dólares al 31 de marzo",
+    "title": "A cargar nafta en la madrugada",
+    "summary": "| YPF baja 5% los precios en algunas estaciones de servicio",
     "source": "Página/12",
     "date": "2025-06-26",
-    "url": "https://www.pagina12.com.ar/837252-balanza-en-rojo-para-los-dolares",
+    "url": "https://www.pagina12.com.ar/837381-ypf-baja-5-el-precio-de-la-nafta-por-la-madrugada-en-que-est",
     "verdict": "uncertain",
     "image": null,
     "id": 6,
@@ -126,77 +126,35 @@
     }
   },
   {
-    "title": "ATE desafía al Gobierno: llama a tomar el feriado por el Día del Trabajador Estatal y desconoce el decreto de Javier Mil",
-    "summary": "El secretario general del gremio no descartó medidas de fuerza. La iniciativa del Ejecutivo se oficializó en el Boletín Oficial.",
-    "source": "Ámbito",
-    "date": "2025-06-26",
-    "url": "https://www.ambito.com/politica/ate-desafia-al-gobierno-llama-tomar-el-feriado-el-dia-del-trabajador-estatal-y-desconoce-el-decreto-javier-milei-n6160553",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 7,
-    "agents": {
-      "logic": "Noticia de Ámbito - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Ámbito",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Chau feriado para empleados públicos: oficializan medida por la que no tendrán fin de semana largo",
-    "summary": "La medida había sido adelantada por el vocero presidencial, Manuel Adorni. A menos de 24 horas, el Gobierno hizo oficial la derogación del asueto.",
-    "source": "Ámbito",
-    "date": "2025-06-26",
-    "url": "https://www.ambito.com/politica/chau-feriado-empleados-publicos-oficializan-medida-la-que-no-tendran-fin-semana-largo-n6160536",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 8,
-    "agents": {
-      "logic": "Noticia de Ámbito - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Ámbito",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "En apoyo a Cristina Kirchner, Mayra Mendoza se tatuó una tobillera con la palabra \"dignidad\"",
-    "summary": "La intendenta de Quilmes mostró el tatuaje en sus historias de Instagram, donde escribió: \"¿Así que tobillera? Será un signo de dignidad”.",
-    "source": "Ámbito",
-    "date": "2025-06-26",
-    "url": "https://www.ambito.com/politica/en-apoyo-cristina-kirchner-mayra-mendoza-se-tatuo-una-tobillera-la-palabra-dignidad-n6160512",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 9,
-    "agents": {
-      "logic": "Noticia de Ámbito - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Ámbito",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "El Gobierno cruzó a los gremios y defendió la eliminación del asueto por el día del trabajador público: \"Iba a costar $1",
+    "title": "El Gobierno cruzó a los gremios y defendió la eliminación del asueto por el día del trabajador público: \"Nos costaba $11",
     "summary": "Noticia de TN",
     "source": "TN",
     "date": "2025-06-26",
     "url": "https://tn.com.ar/politica/politica/2025/06/26/los-gremios-desafian-al-gobierno-y-les-pidieron-a-los-estatales-que-se-tomen-el-dia-del-empleado-publico/",
     "verdict": "uncertain",
     "image": null,
-    "id": 10,
+    "id": 7,
+    "agents": {
+      "logic": "Noticia de TN - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: TN",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "El Gobierno evacuó a 250 argentinos varados en Israel por el conflicto con Irán",
+    "summary": "Noticia de TN",
+    "source": "TN",
+    "date": "2025-06-26",
+    "url": "https://tn.com.ar/politica/politica/2025/06/26/el-gobierno-evacuo-a-250-argentinos-varados-en-israel-por-el-conflicto-con-iran/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 8,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -217,7 +175,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/26/el-gobierno-acelera-el-acuerdo-con-el-pro-en-la-provincia-pero-tensiona-el-vinculo-con-los-macri-en-caba/",
     "verdict": "uncertain",
     "image": null,
-    "id": 11,
+    "id": 9,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -231,20 +189,62 @@
     }
   },
   {
-    "title": "El peronismo prepara las listas en PBA entre la tensión interna y los diálogos cruzados de Kicillof con la Cámpora",
-    "summary": "Noticia de TN",
-    "source": "TN",
+    "title": "Alexia, la hija del medio de Máxima Zorreguieta, cumple 20 años: de la pérdida que la marcó a fuego a su etapa de rebeld",
+    "summary": "Este 26 de junio, la segunda en la línea de sucesión del trono de los Países Bajos y también “la más argentina” de las princesas Orange, celebra su vigésimo cumpleaños",
+    "source": "La Nación",
     "date": "2025-06-26",
-    "url": "https://tn.com.ar/politica/politica/2025/06/26/el-pj-prepara-las-listas-en-pba-entre-la-tension-interna-y-los-dialogos-cruzados-de-kicillof-con-la-campora/",
+    "url": "https://www.lanacion.com.ar/el-mundo/alexia-la-hija-del-medio-de-maxima-zorreguieta-cumple-20-anos-de-la-perdida-que-la-marco-a-fuego-a-nid26062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 10,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Ola polar en Buenos Aires, en vivo: frío y últimas noticias este jueves 26 de junio",
+    "summary": "Las previsiones meteorológicas indican temperaturas aún más bajas y un ambiente más ventoso tras el ingreso de un nuevo frente frío; pronóstico extendido",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/sociedad/ola-polar-en-buenos-aires-en-vivo-frio-y-ultimas-noticias-este-jueves-26-de-junio-nid26062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 11,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "La novia de Jeff Bezos: cuando soñaba ser famosa y conquistar el mundo con un bikini azul",
+    "summary": "Los primeros pasos de Lauren Sánchez hacia la fama fueron en un concurso de belleza, cuando tenía 18 años",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/lifestyle/miss-hawaian-tropic-cuando-la-novia-de-jeff-bezos-sonaba-ser-famosa-y-conquistaba-su-ciudad-con-un-nid29052025/",
     "verdict": "uncertain",
     "image": null,
     "id": 12,
     "agents": {
-      "logic": "Noticia de TN - Fuente verificada",
+      "logic": "Noticia de La Nación - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: TN",
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-26",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
@@ -252,62 +252,20 @@
     }
   },
   {
-    "title": "Germán Martínez desafió a la Justicia por las visitas a Cristina y recordó la foto de los libertarios con Astiz",
-    "summary": "El jefe de la bancada de UP en Diputados retomó la línea de la presentación que hicieron el miércoles para avisar que no piensan pedir permiso para ir a ver a la expresidenta",
-    "source": "La Nación",
+    "title": "Elecciones en Buenos Aires: quiénes son los radicales y el rival de Massa que quieren enfrentar a Milei y los K",
+    "summary": "Noticia de iProfesional",
+    "source": "iProfesional",
     "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/politica/german-martinez-desafio-a-la-justicia-por-las-visitas-a-cristina-y-recordo-la-foto-de-los-nid26062025/",
+    "url": "https://www.iprofesional.com/politica/politica/431472-elecciones-el-frente-anti-milei-y-anti-k-que-arman-un-enemigo-de-massa-y-radicales",
     "verdict": "uncertain",
     "image": null,
     "id": 13,
     "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
+      "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Franco Colapinto y Alpine en el Gran Premio de Austria: apuesta total a la prueba de clasificación",
-    "summary": "El argentino describió un circuito que le ha resultado favorable; Pierre Gasly comparó el A525 con los autos más poderosos",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/deportes/automovilismo/franco-colapinto-y-alpine-en-el-gran-premio-de-austria-apuesta-total-a-la-prueba-de-clasificacion-nid26062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 14,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Cuándo es Bodegonmanía, el festival de 35 bodegones con un plato de pastas para dos personas a solo $13.000",
-    "summary": "Del 24 al 26 de junio, restaurantes clásicos porteños y del Gran Buenos Aires proponen un menú de pastas para compartir a precio único",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/que-sale/cuando-es-bodegonmania-el-festival-de-35-bodegones-con-un-plato-de-pastas-para-dos-personas-a-solo-nid07062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 15,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
+        "📰 Fuente: iProfesional",
         "📅 Fecha: 2025-06-26",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
@@ -322,7 +280,7 @@
     "url": "https://www.iprofesional.com/politica/economia/431361-dolar-futuro-como-es-arma-silenciosa-que-usa-banco-central-argentina-para-intervenir",
     "verdict": "uncertain",
     "image": null,
-    "id": 16,
+    "id": 14,
     "agents": {
       "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -340,31 +298,10 @@
     "summary": "Noticia de iProfesional",
     "source": "iProfesional",
     "date": "2025-06-26",
-    "url": "https://www.iprofesional.com/politica/index.php/politica/431469-jorge-macri-evalua-alianza-con-javier-milei-para-elecciones-2025-de-que-depende",
+    "url": "https://www.iprofesional.com/politica/politica/431469-jorge-macri-evalua-alianza-con-javier-milei-para-elecciones-2025-de-que-depende",
     "verdict": "uncertain",
     "image": null,
-    "id": 17,
-    "agents": {
-      "logic": "Noticia de iProfesional - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: iProfesional",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Quién es Alexia Abaigar, la funcionaria de Axel Kicillof detenida por tirar caca en la casa de Espert",
-    "summary": "Noticia de iProfesional",
-    "source": "iProfesional",
-    "date": "2025-06-26",
-    "url": "https://www.iprofesional.com/politica/index.php/politica/431465-quien-es-funcionaria-de-axel-kicillof-detenida-por-tirar-caca-en-casa-jose-luis-espert",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 18,
+    "id": 15,
     "agents": {
       "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -385,7 +322,7 @@
     "url": "https://chequeado.com/el-explicador/guillermo-francos-en-diputados-el-ranking-de-los-jefes-de-gabinete-que-mas-cumplieron-con-esta-obligacion-constitucional/",
     "verdict": "uncertain",
     "image": null,
-    "id": 19,
+    "id": 16,
     "agents": {
       "logic": "Noticia de Chequeado - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -406,7 +343,7 @@
     "url": "https://chequeado.com/el-explicador/reeleccion-indefinida-en-la-provincia-de-buenos-aires-las-5-claves-del-proyecto-de-ley-que-aprobo-el-senado-bonaerense/",
     "verdict": "uncertain",
     "image": null,
-    "id": 20,
+    "id": 17,
     "agents": {
       "logic": "Noticia de Chequeado - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -427,13 +364,76 @@
     "url": "https://chequeado.com/el-explicador/elecciones-2025-en-santa-fe-que-se-vota-el-domingo-29-de-junio/",
     "verdict": "uncertain",
     "image": null,
-    "id": 21,
+    "id": 18,
     "agents": {
       "logic": "Noticia de Chequeado - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: Chequeado",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Pullaro fue a la Corte Suprema para exigir el pago de la deuda previsional",
+    "summary": "Noticia de El Destape Web",
+    "source": "El Destape Web",
+    "date": "2025-06-26",
+    "url": "https://www.eldestapeweb.com/politica/politica/santa-fe/santa-fe-reclama-en-la-corte-suprema-una-deuda-previsional-a-nacion-con-piso-de-800-millones-202562610407",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 19,
+    "agents": {
+      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: El Destape Web",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Día de asueto: publicaron la prohibición y ATE llama a tomarse el día",
+    "summary": "Noticia de El Destape Web",
+    "source": "El Destape Web",
+    "date": "2025-06-26",
+    "url": "https://www.eldestapeweb.com/politica/politica/javier-milei-presidente/dia-de-asueto-publicaron-la-prohibicion-y-ate-llama-a-tomarse-el-dia-igual-202562694540",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 20,
+    "agents": {
+      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: El Destape Web",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Macri se muestra activo y sólo ve chance de acuerdo con LLA en Buenos Aires",
+    "summary": "Noticia de El Destape Web",
+    "source": "El Destape Web",
+    "date": "2025-06-26",
+    "url": "https://www.eldestapeweb.com/politica/politica/mauricio-macri/macri-se-muestra-activo-y-solo-ve-chance-de-acuerdo-con-lla-en-buenos-aires-202562691315",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 21,
+    "agents": {
+      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: El Destape Web",
         "📅 Fecha: 2025-06-26",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
@@ -504,20 +504,20 @@
     }
   },
   {
-    "title": "Día de asueto: publicaron la prohibición y ATE llama a tomarse el día",
-    "summary": "Noticia de El Destape Web",
-    "source": "El Destape Web",
+    "title": "Dólar oficial: así abre la cotización este jueves 26 de junio",
+    "summary": "Además de conocer la cotización del día, conoce cuáles fueron los cambios que tuvo el dólar la última semana.",
+    "source": "El Cronista",
     "date": "2025-06-26",
-    "url": "https://www.eldestapeweb.com/politica/politica/javier-milei-presidente/dia-de-asueto-publicaron-la-prohibicion-y-ate-llama-a-tomarse-el-dia-igual-202562694540",
+    "url": "https://www.cronista.com/finanzas-mercados/dolar-oficial-asi-abre-la-cotizacion-este-jueves-26-de-junio/",
     "verdict": "uncertain",
     "image": null,
     "id": 25,
     "agents": {
-      "logic": "Noticia de El Destape Web - Fuente verificada",
+      "logic": "Noticia de El Cronista - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
-        "📰 Fuente: El Destape Web",
+        "📰 Fuente: El Cronista",
         "📅 Fecha: 2025-06-26",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
