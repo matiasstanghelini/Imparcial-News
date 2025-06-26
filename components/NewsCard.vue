@@ -1,6 +1,6 @@
 <template>
   <article 
-    class="bg-white border border-gray-200 hover:border-blue-200 shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer group rounded-lg p-4"
+    class="bg-gray-900 border border-gray-700 hover:border-blue-500 shadow-sm hover:shadow-lg transition-all duration-200 cursor-pointer group rounded-lg p-4"
     @click="goToDetail"
   >
     <!-- Media Logo and Source -->
@@ -9,12 +9,12 @@
     </div>
     
     <!-- Headline -->
-    <h2 class="text-base font-bold text-gray-900 mb-2 leading-tight group-hover:text-blue-600 transition-colors">
+    <h2 class="text-base font-bold text-white mb-2 leading-tight group-hover:text-blue-400 transition-colors">
       {{ article.title }}
     </h2>
     
     <!-- Summary -->
-    <p class="text-sm text-gray-600 leading-relaxed">
+    <p class="text-sm text-gray-300 leading-relaxed">
       {{ article.summary }}
     </p>
   </article>

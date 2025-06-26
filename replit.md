@@ -93,6 +93,13 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
+- **June 26, 2025 - Night Mode Implementation**:
+  - Implemented full dark theme with black background and gray-900 cards
+  - Maintained blue accent colors for buttons and divider as requested
+  - Updated all text colors for optimal dark mode readability (white headlines, gray-300 body text)
+  - Preserved MediaLogo component colors and branding for visual consistency
+  - Enhanced hover states with blue-500 borders for better night mode UX
+
 - **June 25, 2025 - BBC Mundo Style Transformation**:
   - Completely rebranded to "Imparcial, news powered by AI" with modern BBC Mundo-inspired design
   - Applied Inter and Noto Sans modern font families throughout the platform
@@ -101,7 +108,7 @@ Preferred communication style: Simple, everyday language.
   - Eliminated "read article" buttons - entire news cards are now clickeable for direct AI analysis access
   - Added MediaLogo component with newspaper icons and branded colors for Argentine media outlets
   - Implemented responsive grid layout (1-4 columns) for optimal viewing across devices
-  - Fixed automatic loading loop issue by removing onMounted auto-fetch
+  - Fixed automatic loading loop issue and restored automatic news loading on page mount
 
 - **June 25, 2025 - UI/UX Modernization**:
   - Updated header with clean, minimalist BBC-style branding
