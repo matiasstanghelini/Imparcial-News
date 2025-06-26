@@ -1,5 +1,26 @@
 [
   {
+    "title": "Ministros, funcionarios y empresario despidieron a la embajadora británica en un acto en el Teatro Colón",
+    "summary": "Kirsty Hayes deja su cargo.Estuvieron Sturzenegger, Cuneo Libarona y representantes de las Fuerzas Armadas, entre otros.",
+    "source": "Clarín",
+    "date": "2025-06-26",
+    "url": "https://www.clarin.com/politica/ministros-funcionarios-empresario-despidieron-embajadora-britanica-acto-teatro-colon_0_zL72CycryK.html",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 1,
+    "agents": {
+      "logic": "Noticia de Clarín - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Clarín",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
     "title": "Una nueva encuesta midió la interna más caliente: ¿Kicillof traicionó a Cristina o ella no lo deja crecer?",
     "summary": "El estudio lo encargó un intendente del Sur del Conurbano. Cómo ven la pelea los militantes y de qué lado están.",
     "source": "Clarín",
@@ -7,7 +28,7 @@
     "url": "https://www.clarin.com/politica/nueva-encuesta-midio-interna-peronista-kicillof-traiciono-cristina-deja-crecer_0_lSuhKuKuH1.html",
     "verdict": "uncertain",
     "image": null,
-    "id": 1,
+    "id": 2,
     "agents": {
       "logic": "Noticia de Clarín - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -28,27 +49,6 @@
     "url": "https://www.clarin.com/politica/elecciones-2025-argentina-vivo-pj-bonaerense-convoco-massismo-patria-grande-partido-moreno_0_oPJ3Ca3RLg.html",
     "verdict": "uncertain",
     "image": null,
-    "id": 2,
-    "agents": {
-      "logic": "Noticia de Clarín - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Clarín",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Javier Milei y sus medidas, EN VIVO: el Presidente relanza la campaña bonaerense de LLA con un acto en La Plata",
-    "summary": "El evento partidario, que se había suspendido en su momento por la muerte del papa Francisco, contará además con una fuerte presencia del Gabinete.Seguí todas las novedades sobre las medidas del gobierno de Javier Milei en la cobertura minuto a minut",
-    "source": "Clarín",
-    "date": "2025-06-26",
-    "url": "https://www.clarin.com/politica/javier-milei-medidas-vivo-presidente-relanza-campana-bonaerense-lla-acto-plata_0_YaYkUjuVD5.html",
-    "verdict": "uncertain",
-    "image": null,
     "id": 3,
     "agents": {
       "logic": "Noticia de Clarín - Fuente verificada",
@@ -63,77 +63,14 @@
     }
   },
   {
-    "title": "ATE desafía al Gobierno: llama a tomar el feriado por el Día del Trabajador Estatal y desconoce el decreto de Javier Mil",
-    "summary": "El secretario general del gremio no descartó medidas de fuerza. La iniciativa del Ejecutivo se oficializó en el Boletín Oficial.",
-    "source": "Ámbito",
+    "title": "El increíble testimonio de Tezanos Pinto por el atentado contra CFK",
+    "summary": "| La vecina de la expresidenta declaró en el juicio",
+    "source": "Página/12",
     "date": "2025-06-26",
-    "url": "https://www.ambito.com/politica/ate-desafia-al-gobierno-llama-tomar-el-feriado-el-dia-del-trabajador-estatal-y-desconoce-el-decreto-javier-milei-n6160553",
+    "url": "https://www.pagina12.com.ar/837285-el-increible-testimonio-de-tezanos-pinto-por-el-atentado-con",
     "verdict": "uncertain",
     "image": null,
     "id": 4,
-    "agents": {
-      "logic": "Noticia de Ámbito - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Ámbito",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Chau feriado para empleados públicos: oficializan medida por la que no tendrán fin de semana largo",
-    "summary": "La medida había sido adelantada por el vocero presidencial, Manuel Adorni. A menos de 24 horas, el Gobierno hizo oficial la derogación del asueto.",
-    "source": "Ámbito",
-    "date": "2025-06-26",
-    "url": "https://www.ambito.com/politica/chau-feriado-empleados-publicos-oficializan-medida-la-que-no-tendran-fin-semana-largo-n6160536",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 5,
-    "agents": {
-      "logic": "Noticia de Ámbito - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Ámbito",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "En apoyo a Cristina Kirchner, Mayra Mendoza se tatuó una tobillera con la palabra \"dignidad\"",
-    "summary": "La intendenta de Quilmes mostró el tatuaje en sus historias de Instagram, donde escribió: \"¿Así que tobillera? Será un signo de dignidad”.",
-    "source": "Ámbito",
-    "date": "2025-06-26",
-    "url": "https://www.ambito.com/politica/en-apoyo-cristina-kirchner-mayra-mendoza-se-tatuo-una-tobillera-la-palabra-dignidad-n6160512",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 6,
-    "agents": {
-      "logic": "Noticia de Ámbito - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: Ámbito",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "EL REGRESO DE LOS MENEM TRUCHOS",
-    "summary": "| El entramado de negocios con el Estado de dos sociedades vinculadas al clan Menem",
-    "source": "Página/12",
-    "date": "2025-06-26",
-    "url": "https://www.pagina12.com.ar/837274-el-entramado-de-negocios-con-el-estado-de-dos-sociedades-vin",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 7,
     "agents": {
       "logic": "Noticia de Página/12 - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -147,14 +84,14 @@
     }
   },
   {
-    "title": "El increíble testimonio de Tezanos Pinto por el atentado contra Cristina Kirchner",
-    "summary": "| La vecina de la expresidenta declaró en el juicio",
+    "title": "El regreso de los Menem truchos",
+    "summary": "| El entramado de negocios con el Estado de dos sociedades vinculadas al clan Menem",
     "source": "Página/12",
     "date": "2025-06-26",
-    "url": "https://www.pagina12.com.ar/837285-el-increible-testimonio-de-tezanos-pinto-por-el-atentado-con",
+    "url": "https://www.pagina12.com.ar/837274-el-entramado-de-negocios-con-el-estado-de-dos-sociedades-vin",
     "verdict": "uncertain",
     "image": null,
-    "id": 8,
+    "id": 5,
     "agents": {
       "logic": "Noticia de Página/12 - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -175,13 +112,139 @@
     "url": "https://www.pagina12.com.ar/837252-balanza-en-rojo-para-los-dolares",
     "verdict": "uncertain",
     "image": null,
-    "id": 9,
+    "id": 6,
     "agents": {
       "logic": "Noticia de Página/12 - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: Página/12",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "ATE desafía al Gobierno: llama a tomar el feriado por el Día del Trabajador Estatal y desconoce el decreto de Javier Mil",
+    "summary": "El secretario general del gremio no descartó medidas de fuerza. La iniciativa del Ejecutivo se oficializó en el Boletín Oficial.",
+    "source": "Ámbito",
+    "date": "2025-06-26",
+    "url": "https://www.ambito.com/politica/ate-desafia-al-gobierno-llama-tomar-el-feriado-el-dia-del-trabajador-estatal-y-desconoce-el-decreto-javier-milei-n6160553",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 7,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Chau feriado para empleados públicos: oficializan medida por la que no tendrán fin de semana largo",
+    "summary": "La medida había sido adelantada por el vocero presidencial, Manuel Adorni. A menos de 24 horas, el Gobierno hizo oficial la derogación del asueto.",
+    "source": "Ámbito",
+    "date": "2025-06-26",
+    "url": "https://www.ambito.com/politica/chau-feriado-empleados-publicos-oficializan-medida-la-que-no-tendran-fin-semana-largo-n6160536",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 8,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "En apoyo a Cristina Kirchner, Mayra Mendoza se tatuó una tobillera con la palabra \"dignidad\"",
+    "summary": "La intendenta de Quilmes mostró el tatuaje en sus historias de Instagram, donde escribió: \"¿Así que tobillera? Será un signo de dignidad”.",
+    "source": "Ámbito",
+    "date": "2025-06-26",
+    "url": "https://www.ambito.com/politica/en-apoyo-cristina-kirchner-mayra-mendoza-se-tatuo-una-tobillera-la-palabra-dignidad-n6160512",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 9,
+    "agents": {
+      "logic": "Noticia de Ámbito - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: Ámbito",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Ola polar en Buenos Aires, en vivo: frío y últimas noticias este jueves 26 de junio",
+    "summary": "Las previsiones meteorológicas indican temperaturas aún más bajas y un ambiente más ventoso tras el ingreso de un nuevo frente frío; pronóstico extendido",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/sociedad/ola-polar-en-buenos-aires-en-vivo-frio-y-ultimas-noticias-este-jueves-26-de-junio-nid26062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 10,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Germán Martínez desafió a la Justicia por las visitas a Cristina y recordó la foto de los libertarios con Astiz",
+    "summary": "El jefe de la bancada de UP en Diputados retomó la línea de la presentación que hicieron el miércoles para avisar que no piensan pedir permiso para ir a ver a la expresidenta",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/politica/german-martinez-desafio-a-la-justicia-por-las-visitas-a-cristina-y-recordo-la-foto-de-los-nid26062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 11,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
+        "📅 Fecha: 2025-06-26",
+        "🔍 Estado: Noticia verificada",
+        "⚡ Tipo: Información actualizada"
+      ]
+    }
+  },
+  {
+    "title": "Su nivel de inglés fue una traba cuando estudió en Europa y creó un club para hablar idiomas con extranjeros",
+    "summary": "Una ronda de mate es el ritual argentino que nacionales y extranjeros comparten en un hostel de Recoleta y en un bar de Palermo para tender puentes interculturales y, por supuesto, hacer nuevos amigos",
+    "source": "La Nación",
+    "date": "2025-06-26",
+    "url": "https://www.lanacion.com.ar/que-sale/su-nivel-de-ingles-fue-una-traba-cuando-estudio-en-europa-y-creo-un-club-para-hablar-idiomas-en-nid25062025/",
+    "verdict": "uncertain",
+    "image": null,
+    "id": 12,
+    "agents": {
+      "logic": "Noticia de La Nación - Fuente verificada",
+      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
+      "expert": "Evaluación especializada requerida para análisis detallado",
+      "synth": [
+        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-26",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"
@@ -196,7 +259,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/26/los-gremios-desafian-al-gobierno-y-les-pidieron-a-los-estatales-que-se-tomen-el-dia-del-empleado-publico/",
     "verdict": "uncertain",
     "image": null,
-    "id": 10,
+    "id": 13,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -217,7 +280,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/26/el-gobierno-acelera-el-acuerdo-con-el-pro-en-la-provincia-pero-tensiona-el-vinculo-con-los-macri-en-caba/",
     "verdict": "uncertain",
     "image": null,
-    "id": 11,
+    "id": 14,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -238,7 +301,7 @@
     "url": "https://tn.com.ar/politica/politica/2025/06/26/el-pj-prepara-las-listas-en-pba-entre-la-tension-interna-y-los-dialogos-cruzados-de-kicillof-con-la-campora/",
     "verdict": "uncertain",
     "image": null,
-    "id": 12,
+    "id": 15,
     "agents": {
       "logic": "Noticia de TN - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -259,7 +322,7 @@
     "url": "https://www.iprofesional.com/politica/economia/431361-dolar-futuro-como-es-arma-silenciosa-que-usa-banco-central-argentina-para-intervenir",
     "verdict": "uncertain",
     "image": null,
-    "id": 13,
+    "id": 16,
     "agents": {
       "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -280,7 +343,7 @@
     "url": "https://www.iprofesional.com/politica/index.php/politica/431469-jorge-macri-evalua-alianza-con-javier-milei-para-elecciones-2025-de-que-depende",
     "verdict": "uncertain",
     "image": null,
-    "id": 14,
+    "id": 17,
     "agents": {
       "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
@@ -301,76 +364,13 @@
     "url": "https://www.iprofesional.com/politica/index.php/politica/431465-quien-es-funcionaria-de-axel-kicillof-detenida-por-tirar-caca-en-casa-jose-luis-espert",
     "verdict": "uncertain",
     "image": null,
-    "id": 15,
+    "id": 18,
     "agents": {
       "logic": "Noticia de iProfesional - Fuente verificada",
       "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
       "expert": "Evaluación especializada requerida para análisis detallado",
       "synth": [
         "📰 Fuente: iProfesional",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Video: una joven destrozó el buffet donde trabajaba y denunció que sus jefes la trataban mal",
-    "summary": "La adolescente de 18 años contó que estaba en ese local desde marzo; “A veces nos quedábamos más tiempo y no nos pagaban las horas extras”, aseguró",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/sociedad/video-una-joven-destrozo-el-buffet-donde-trabajaba-y-denuncio-que-sus-jefes-la-trataban-mal-nid26062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 16,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "La “casta” hace los deberes que necesita Milei",
-    "summary": "El opaco parlamento bonaerense que aprobó la reelección indefinida de los propios legisladores produjo en las últimas décadas una única noticia: las fechorías de Julio Rigau, “Chocolate”",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/politica/la-casta-hace-los-deberes-que-necesita-milei-nid25062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 17,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
-        "📅 Fecha: 2025-06-26",
-        "🔍 Estado: Noticia verificada",
-        "⚡ Tipo: Información actualizada"
-      ]
-    }
-  },
-  {
-    "title": "Ola polar en Buenos Aires, en vivo: frío y últimas noticias este jueves 26 de junio",
-    "summary": "Las previsiones meteorológicas indican temperaturas aún más bajas y un ambiente más ventoso tras el ingreso de un nuevo frente frío; pronóstico extendido",
-    "source": "La Nación",
-    "date": "2025-06-26",
-    "url": "https://www.lanacion.com.ar/sociedad/ola-polar-en-buenos-aires-en-vivo-frio-y-ultimas-noticias-este-jueves-26-de-junio-nid26062025/",
-    "verdict": "uncertain",
-    "image": null,
-    "id": 18,
-    "agents": {
-      "logic": "Noticia de La Nación - Fuente verificada",
-      "context": "Publicada el 2025-06-26 - Medio argentino reconocido",
-      "expert": "Evaluación especializada requerida para análisis detallado",
-      "synth": [
-        "📰 Fuente: La Nación",
         "📅 Fecha: 2025-06-26",
         "🔍 Estado: Noticia verificada",
         "⚡ Tipo: Información actualizada"

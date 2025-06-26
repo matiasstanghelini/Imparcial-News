@@ -93,12 +93,14 @@ Preferred communication style: Simple, everyday language.
 
 ## Recent Changes
 
-- **June 26, 2025 - Night Mode Implementation**:
-  - Implemented full dark theme with black background and gray-900 cards
-  - Maintained blue accent colors for buttons and divider as requested
-  - Updated all text colors for optimal dark mode readability (white headlines, gray-300 body text)
-  - Preserved MediaLogo component colors and branding for visual consistency
-  - Enhanced hover states with blue-500 borders for better night mode UX
+- **June 26, 2025 - Dynamic Night Mode & Controls Implementation**:
+  - Added dynamic toggle icon for night mode activation/deactivation with Moon/Sun icons
+  - Implemented categories menu positioned left of title at same height (Todas, Política, Economía, Deportes, Internacionales)  
+  - Created global dark mode state management using Vue inject/provide pattern
+  - Fixed auto-refresh issue that was causing infinite page reloads during news view
+  - All components now respond dynamically to mode changes: NewsCard, MediaLogo, header, controls
+  - Enhanced user controls with proper dropdown functionality and smooth transitions
+  - Maintained blue accent colors for buttons and divider in both light/dark modes as requested
 
 - **June 25, 2025 - BBC Mundo Style Transformation**:
   - Completely rebranded to "Imparcial, news powered by AI" with modern BBC Mundo-inspired design

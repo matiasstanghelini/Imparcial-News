@@ -7,12 +7,12 @@
       <component :is="logoSvg" v-if="logoSvg" class="w-5 h-5" />
       <span v-else>{{ logoInitials }}</span>
     </div>
-    <span class="text-sm font-medium text-gray-300">{{ source }}</span>
+    <span class="text-sm font-medium" :class="isDarkMode ? 'text-gray-300' : 'text-gray-700'">{{ source }}</span>
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, inject } from 'vue'
 
 const props = defineProps({
   source: {
@@ -20,6 +20,9 @@ const props = defineProps({
     required: true
   }
 })
+
+// Inject global dark mode state
+const isDarkMode = inject('isDarkMode')
 
 // Componente SVG para logos de periódicos
 const NewspaperIcon = {

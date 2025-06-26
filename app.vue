@@ -1,8 +1,18 @@
 <template>
-  <div class="min-h-screen bg-black">
+  <div class="min-h-screen" :class="isDarkMode ? 'bg-black' : 'bg-gray-50'">
     <NuxtPage />
   </div>
 </template>
+
+<script setup>
+import { ref, provide } from 'vue'
+
+// Global dark mode state
+const isDarkMode = ref(true)
+
+// Provide dark mode state to all child components
+provide('isDarkMode', isDarkMode)
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');

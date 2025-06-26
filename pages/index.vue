@@ -1,22 +1,66 @@
 <template>
   <div class="container mx-auto px-4 py-8">
     <!-- Header -->
-    <header class="mb-8 border-b border-gray-700 pb-4 text-center">
-      <h1 class="text-4xl font-bold text-white mb-1 tracking-tight">
-        Imparcial
-      </h1>
-      <div class="w-16 h-0.5 bg-blue-600 mx-auto mb-2"></div>
-      <p class="text-base text-gray-300 font-medium">
-        news powered by AI
-      </p>
+    <header class="mb-8 pb-4 relative" :class="isDarkMode ? 'border-b border-gray-700' : 'border-b border-gray-200'">
+      <!-- Left Controls -->
+      <div class="absolute left-0 top-1/2 transform -translate-y-1/2 flex items-center gap-3">
+        <!-- Categories Menu -->
+        <div class="relative">
+          <button 
+            @click="toggleCategoriesMenu"
+            class="p-2 rounded-lg transition-colors"
+            :class="isDarkMode ? 'bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-700 hover:text-gray-900'"
+          >
+            <Menu class="h-5 w-5" />
+          </button>
+          
+          <!-- Categories Dropdown -->
+          <div v-if="showCategoriesMenu" class="absolute top-full left-0 mt-2 rounded-lg shadow-lg min-w-[150px] z-10"
+            :class="isDarkMode ? 'bg-gray-800 border border-gray-600' : 'bg-white border border-gray-200'"
+          >
+            <div 
+              v-for="category in categories" 
+              :key="category.name"
+              @click="selectCategory(category.name)"
+              class="px-4 py-2 text-sm cursor-pointer transition-colors"
+              :class="category.active ? 'bg-blue-600 text-white' : (isDarkMode ? 'text-gray-300 hover:bg-gray-700 hover:text-white' : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900')"
+            >
+              {{ category.name }}
+            </div>
+          </div>
+        </div>
+        
+        <!-- Dark Mode Toggle -->
+        <button 
+          @click="toggleDarkMode"
+          class="p-2 rounded-lg transition-colors"
+          :class="isDarkMode ? 'bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white' : 'bg-gray-200 hover:bg-gray-300 text-gray-700 hover:text-gray-900'"
+        >
+          <Moon v-if="isDarkMode" class="h-5 w-5" />
+          <Sun v-else class="h-5 w-5" />
+        </button>
+      </div>
+      
+      <!-- Center Title -->
+      <div class="text-center">
+        <h1 class="text-4xl font-bold mb-1 tracking-tight" :class="isDarkMode ? 'text-white' : 'text-gray-900'">
+          Imparcial
+        </h1>
+        <div class="w-16 h-0.5 bg-blue-600 mx-auto mb-2"></div>
+        <p class="text-base font-medium" :class="isDarkMode ? 'text-gray-300' : 'text-gray-600'">
+          news powered by AI
+        </p>
+      </div>
     </header>
 
     <!-- Controls -->
     <div class="mb-8">
-      <div class="flex items-center justify-between bg-gray-900 p-4 rounded-md border border-gray-700">
+      <div class="flex items-center justify-between p-4 rounded-md transition-colors"
+        :class="isDarkMode ? 'bg-gray-900 border border-gray-700' : 'bg-gray-50 border border-gray-200'"
+      >
         <div class="flex items-center gap-4">
-          <span class="text-sm font-medium text-gray-300">Última actualización:</span>
-          <span class="text-sm text-gray-400">{{ formatTime(new Date()) }}</span>
+          <span class="text-sm font-medium" :class="isDarkMode ? 'text-gray-300' : 'text-gray-700'">Última actualización:</span>
+          <span class="text-sm" :class="isDarkMode ? 'text-gray-400' : 'text-gray-600'">{{ formatTime(new Date()) }}</span>
         </div>
         <button
           @click="refreshNews"
@@ -26,8 +70,10 @@
           <RefreshCw class="h-4 w-4 inline mr-2" />
           Actualizar Noticias
         </button>
-        <div v-if="loading" class="flex items-center gap-2 text-sm text-gray-400">
-          <div class="w-4 h-4 border-2 border-gray-600 border-t-blue-600 rounded-full animate-spin"></div>
+        <div v-if="loading" class="flex items-center gap-2 text-sm" :class="isDarkMode ? 'text-gray-400' : 'text-gray-500'">
+          <div class="w-4 h-4 border-2 rounded-full animate-spin" 
+            :class="isDarkMode ? 'border-gray-600 border-t-blue-600' : 'border-gray-300 border-t-blue-600'"
+          ></div>
           Cargando...
         </div>
       </div>
@@ -35,12 +81,12 @@
 
     <!-- News Feed -->
     <div v-if="newsData.length === 0" class="text-center py-16">
-      <div class="text-gray-400 mb-4">
+      <div class="mb-4" :class="isDarkMode ? 'text-gray-400' : 'text-gray-500'">
         <svg class="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd" />
         </svg>
-        <h3 class="text-xl font-bold text-gray-300 mb-2">Bienvenido a Imparcial</h3>
-        <p class="text-gray-400">
+        <h3 class="text-xl font-bold mb-2" :class="isDarkMode ? 'text-gray-300' : 'text-gray-700'">Bienvenido a Imparcial</h3>
+        <p :class="isDarkMode ? 'text-gray-400' : 'text-gray-600'">
           Haga clic en "Actualizar Noticias" para cargar las últimas noticias de los principales medios argentinos
         </p>
       </div>
@@ -58,17 +104,48 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import { RefreshCw } from 'lucide-vue-next'
+import { ref, onMounted, inject } from 'vue'
+import { RefreshCw, Moon, Sun, Menu } from 'lucide-vue-next'
 
 // News data and loading state
 const newsData = ref([])
 const loading = ref(false)
 
+// Inject global dark mode state
+const isDarkMode = inject('isDarkMode')
+
+// Categories menu state
+const showCategoriesMenu = ref(false)
+const categories = ref([
+  { name: 'Todas', active: true },
+  { name: 'Política', active: false },
+  { name: 'Economía', active: false },
+  { name: 'Deportes', active: false },
+  { name: 'Internacionales', active: false }
+])
+
 const refreshNews = async () => {
   loading.value = true
   await fetchLiveNews()
   loading.value = false
+}
+
+// Dark mode toggle
+const toggleDarkMode = () => {
+  isDarkMode.value = !isDarkMode.value
+}
+
+// Categories menu toggle
+const toggleCategoriesMenu = () => {
+  showCategoriesMenu.value = !showCategoriesMenu.value
+}
+
+// Select category
+const selectCategory = (categoryName) => {
+  categories.value.forEach(cat => {
+    cat.active = cat.name === categoryName
+  })
+  showCategoriesMenu.value = false
 }
 
 const fetchLiveNews = async () => {
@@ -95,8 +172,12 @@ const formatTime = (date) => {
   })
 }
 
-// Auto-load news on page mount
-onMounted(() => {
-  fetchLiveNews()
+// Auto-load news on page mount (only once with flag)
+let newsLoaded = false
+onMounted(async () => {
+  if (!newsLoaded && newsData.value.length === 0) {
+    newsLoaded = true
+    await fetchLiveNews()
+  }
 })
 </script>
